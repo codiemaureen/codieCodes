@@ -1,0 +1,27 @@
+.projects{
+ border-top: 10px solid darkgreen;
+ color: yellowgreen;
+ padding: 10vh;
+ margin: auto;
+ text-align: center;
+}
+
+.projectsHeader {
+   margin: 0;
+   font-size: 3em;
+   padding-bottom: 4vh;
+}
+
+.projectsContainer{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.projectsItems{
+ padding: 2%;
+ width: 25%;
+ height: 40%;
+ margin: 2%;
+ border: 3px solid green;
+}

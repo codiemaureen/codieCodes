@@ -1,4 +1,5 @@
 import AboutMe from "./component/AboutMe";
+import Projects from "./component/Projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </header>
     </div>
     <AboutMe />
+    <Projects />
     </>
 
   );
