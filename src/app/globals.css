@@ -4,9 +4,10 @@ body {
 }
 
 .header {
+  border-top: 5px solid darkgreen;
   display: flex;
   width: 100vw;
-  min-height: 35vh;
+  min-height: 20vh;
   max-height: 35vh;
   flex-direction: column;
   position: relative;
@@ -33,12 +34,12 @@ h1 {
 
 .nav-container {
   display: flex;
-  border: 2px solid black;
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: black;
   cursor: text;
   padding-bottom: 0;
+  /* position: fixed; */
 }
 
 .nav-item {
@@ -61,7 +62,7 @@ h1 {
   }
 
   to {
-    top: -10%;
+    top: -100%;
   }
 }
 
@@ -76,6 +77,7 @@ h1 {
   }
 
   .header {
+    min-height: 10vh;
     order: 1;
   }
 
