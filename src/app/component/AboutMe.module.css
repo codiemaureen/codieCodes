@@ -4,9 +4,11 @@
  color: greenyellow;
  text-align: center;
  background-color: black;
+ min-height: 40vh;
 }
 
 .aboutHeader{
   margin: 0;
   font-size: 3em;
+  padding-bottom: 10vh;
 }
