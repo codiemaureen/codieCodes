@@ -1,5 +1,5 @@
 .aboutMe{
- padding: 20vh;
+ padding: 10vh;
  border-top: 15px solid darkgreen;
  color: greenyellow;
  text-align: center;
@@ -8,5 +8,5 @@
 
 .aboutHeader{
   margin: 0;
- font-size: 3em;
+  font-size: 3em;
 }
