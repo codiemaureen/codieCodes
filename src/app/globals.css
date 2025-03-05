@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   margin: 0;
 }
 
@@ -18,15 +19,16 @@ h1 {
   color: rgb(8, 124, 8);
   background-color: black;
   margin: auto;
-  flex-grow: 1;
+  flex: 1 1 auto;
   text-transform: uppercase;
+  font-size: 3em;
 }
 
 .header-image {
   width: 100%;
   object-fit: cover;
   position: absolute; 
-  animation: scrollImage 15s linear infinite; 
+  animation: scrollImage 8s linear infinite; 
 }
 
 .nav-container {
@@ -36,6 +38,7 @@ h1 {
   flex-wrap: wrap;
   background-color: black;
   cursor: text;
+  padding-bottom: 0;
 }
 
 .nav-item {
@@ -44,6 +47,7 @@ h1 {
   background-color: darkgreen;
   margin: 20px;
   flex: 1 1 auto;
+  padding: 1%;
   text-align: center;
 }
 
@@ -51,11 +55,24 @@ h1 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 870px) {
+@keyframes scrollImage {
+  from {
+    top: 100%;
+  }
+
+  to {
+    top: -10%;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  h1{
+    font-size: 5em;
+    text-align: center;
+  }
   .nav-container {
     flex-direction: column;
-    width: 100%;
-    margin: 0;
+    min-width: 100%;
   }
 
   .header {
@@ -71,15 +88,5 @@ h1 {
 
   h1 {
     margin: 0;
-  }
-}
-
-@keyframes scrollImage {
-  from {
-    top: 100%;
-  }
-
-  to {
-    top: -100%;
   }
 }

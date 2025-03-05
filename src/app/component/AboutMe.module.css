@@ -1,0 +1,12 @@
+.aboutMe{
+ padding: 20vh;
+ border-top: 15px solid darkgreen;
+ color: greenyellow;
+ text-align: center;
+ background-color: black;
+}
+
+.aboutHeader{
+  margin: 0;
+ font-size: 3em;
+}
