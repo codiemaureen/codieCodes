@@ -5,11 +5,16 @@ body {
 .header {
   display: flex;
   width: 100vw;
+  min-height: 35vh;
   max-height: 35vh;
   flex-direction: column;
+  position: fixed;
+  overflow: hidden;
+  background-color: black;
 }
 
 h1 {
+  z-index: 1000;
   color: rgb(8, 124, 8);
   background-color: black;
   margin: auto;
@@ -18,9 +23,10 @@ h1 {
 }
 
 .header-image {
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
-  overflow-y: scroll;
+  position: absolute;
+  animation: scrollImage 15s linear infinite;
 }
 
 .nav-container {
@@ -65,5 +71,15 @@ h1 {
 
   h1 {
     margin: 0;
+  }
+}
+
+@keyframes scrollImage {
+  from {
+    top: 100%;
+  }
+
+  to {
+    top: -100%;
   }
 }
