@@ -5,16 +5,26 @@
 }
 
 .contactHeader{
+ /* width: 100%; */
+ margin: auto;
+ padding: 6rem;
  font-size: 3rem;
  text-transform: capitalize;
 }
 
-.form{
- background-color: yellowgreen;
- color: black;
- display: table;
- margin: auto;
- padding: 2em;
- border: 2px solid yellowgreen;
- font-size: 2rem;
+.contactFlex{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.contactList{
+ text-align: start;
+ list-style-type: none;
+ padding: 0;
+}
+
+.contactItem {
+ font-size: 2em;
+ padding: 1rem;
+ padding-left: 0;
 }
