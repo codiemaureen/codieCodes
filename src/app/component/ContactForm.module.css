@@ -1,0 +1,9 @@
+.form {
+ background-color: yellowgreen;
+ color: black;
+ display: table;
+ margin: auto;
+ padding: 2em;
+ border: 2px solid yellowgreen;
+ font-size: 2rem;
+}
