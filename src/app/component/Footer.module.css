@@ -5,3 +5,13 @@
  font-size: 2em;
  color: yellowgreen;
 }
+
+.footerTitle{
+ text-align: center;
+}
+
+.credContainer{
+ display: flex;
+ justify-content: space-evenly;
+}
+
