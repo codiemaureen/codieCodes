@@ -1,0 +1,10 @@
+.contactContainer {
+ text-align: center;
+ border-top: 5px solid greenyellow;
+}
+
+.contactHeader{
+ color: yellowgreen;
+ font-size: 3rem;
+ text-transform: capitalize;
+}
