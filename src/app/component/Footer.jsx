@@ -15,14 +15,14 @@ const Footer = () => {
        </div>
        <div className={styles.imageCredContainer}>
         <h4 className={styles.imageCredit}>Image Credit</h4>
-        <ul className="imageCred">
-         <li className="images">images 1</li>
-         <li className="images">images 2</li>
-         <li className="images">images 3</li>
+        <ul className={styles.imageCred}>
+         <li className={styles.images}>images 1</li>
+         <li className={styles.images}>images 2</li>
+         <li className={styles.images}>images 3</li>
         </ul>
        </div>
       </section>
-      <button className="returnHome">Codie Groth</button>
+      <button className={styles.returnHome}>Codie Groth</button>
     </div>
   )
 }

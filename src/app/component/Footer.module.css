@@ -1,4 +1,6 @@
 .footer{
+ display: flex;
+ flex-direction: column;
  margin-top: 20px;
  padding-top: 2em;
  border-top: 5px solid yellowgreen;
@@ -15,3 +17,8 @@
  justify-content: space-evenly;
 }
 
+.returnHome{
+ margin: auto;
+ padding: 2rem;
+ margin-bottom: 5em;
+}
