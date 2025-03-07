@@ -1,13 +1,14 @@
 .projects{
+ display: flex;
+ flex-direction: column;
  border-top: 10px solid darkgreen;
  color: yellowgreen;
  padding: 10vh;
- margin: auto;
  text-align: center;
 }
 
 .projectsHeader {
-   margin: 0;
+   margin: auto;
    font-size: 3em;
    padding-bottom: 4vh;
 }

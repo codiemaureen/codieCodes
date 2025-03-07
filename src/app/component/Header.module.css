@@ -62,13 +62,10 @@
 }
 
 @media screen and (max-width: 1355px) {
- .headerTitle {
-  text-align: center;
- }
-
  .navContainer {
   flex-direction: column;
-  min-width: 100%;
+  justify-content: space-around;
+  min-width: 100vw;
  }
 
  .header {
@@ -83,7 +80,8 @@
   order: 2;
  }
 
- .heaeder {
+ .header {
   margin: 0;
+  padding: 0;
  }
 }
