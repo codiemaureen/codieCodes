@@ -1,10 +1,10 @@
 .header {
  border-top: 5px solid darkgreen;
  display: flex;
- width: 100vw;
+ flex-direction: column;
+ min-width: 100vw;
  min-height: 20vh;
  max-height: 35vh;
- flex-direction: column;
  position: relative;
  overflow: hidden;
  background-color: black;
@@ -29,12 +29,13 @@
 
 .navContainer {
  display: flex;
- justify-content: space-evenly;
+
+ min-width: 100vw;
+ /* justify-content: space-evenly; */
  flex-wrap: wrap;
  background-color: black;
  cursor: text;
  padding-bottom: 0;
- /* position: fixed; */
 }
 
 .navItem {
