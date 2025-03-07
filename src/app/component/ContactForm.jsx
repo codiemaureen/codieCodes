@@ -2,7 +2,7 @@ import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
   return (
-    <div>
+    <div className={styles.formContainer}>
      <form action="" method="get" className={styles.form}>
        <h2 className={styles.formHeading}>Send me an Email!</h2>
        <div className={styles.formExample}>
@@ -17,7 +17,7 @@ const ContactForm = () => {
          <label htmlFor="email"> </label>
        </div>
        <div className={styles.formExample}>
-         <textarea name="emailBody" id="emailBody" rows="15" cols="50" value='Email body...'/>
+         <textarea className={styles.textarea}name="emailBody" id="emailBody" rows="15" cols="50" value='Email body...'/>
        </div>
        <div className={styles.formExample}>
          <input type="submit" value="Contact Me" className={styles.formInput}/>

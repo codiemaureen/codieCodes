@@ -4,13 +4,6 @@
  color: yellowgreen;
 }
 
-.contactHeader{
- margin: auto;
- padding: 6rem;
- font-size: 3rem;
- text-transform: capitalize;
-}
-
 .contactFlex{
  display: flex;
  justify-content: space-evenly;
@@ -32,5 +25,11 @@
  .contactFlex {
   flex-direction: column;
   align-items: center;
+ }
+}
+
+@media screen and (max-width: 450px) {
+ .contactHeader {
+  padding: 1rem;
  }
 }
