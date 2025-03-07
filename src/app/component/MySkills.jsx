@@ -4,13 +4,12 @@ const MySkills = () => {
   return (
     <div className={styles.skillsContainer}>
       <ol className={styles.skillList}>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
-        <li className={styles.skillItems}></li>
+        <li className={styles.skillItems}>NEXT.JS</li>
+        <li className={styles.skillItems}>REACT</li>
+        <li className={styles.skillItems}>ANGULAR</li>
+        <li className={styles.skillItems}>NODE</li>
+        <li className={styles.skillItems}>TYPESCRIPT</li>
+        <li className={styles.skillItems}>JAVASCRIPT</li>
       </ol>
     </div>
   )
