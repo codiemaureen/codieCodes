@@ -9,7 +9,7 @@ const MyDetails = () => {
         <li className={styles.detailItems}>CodieGroth@Gmail.com</li>
         <li className={styles.detailItems}>Github</li>
         <li className={styles.detailItems}>LinkedIn</li>
-        <li className={styles.detailItems}>Schedue a Coffee Chat</li>
+        <li className={styles.detailItems}>Schedule a Coffee Chat</li>
         <li className={styles.detailItems}>Vist My Github City</li>
       </ol>
     </div>
