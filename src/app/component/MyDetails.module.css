@@ -1,8 +1,8 @@
 .detailsContainer {
  display: flex;
- /* width: 30%; */
  margin: 0;
  margin-bottom: 1rem;
+ min-width: 20%;
 }
 
 .detailsList{
@@ -14,6 +14,7 @@
  white-space: nowrap;
  text-align: start;
  height: 100%;
+ width: 100%;
  padding: 0;
  margin: 0;
 }
@@ -27,11 +28,14 @@
 
 @media screen and (max-width: 860px) {
  .detailsList{
+  max-width: 90%;
   margin: 0;
   padding: 0;
  }
 
  .detailItems {
+  font-size: 1em;
   white-space: wrap;
+  /* padding: 5%; */
   }
 }

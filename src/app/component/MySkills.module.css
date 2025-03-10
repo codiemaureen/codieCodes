@@ -2,6 +2,7 @@
  display: flex;
  justify-content: flex-end;
  margin-bottom: 1rem;
+ min-width: 20%;
 }
 
 .skillList {
@@ -12,6 +13,8 @@
  text-transform: uppercase;
  text-align: start;
  height: 100%;
+ width: 100%;
+
 }
 
 .skillItems {
