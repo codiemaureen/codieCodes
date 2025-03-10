@@ -1,15 +1,27 @@
 .aboutMe{
-  display: flex;
- padding: 10vh;
+ display: flex;
  border-top: 10px solid darkgreen;
- color: greenyellow;
  text-align: center;
  background-color: black;
  min-height: 40vh;
+ min-width: 100%;
+ justify-content: space-between;
 }
 
-.aboutHeader{
-  margin: 0;
-  font-size: 3em;
-  padding-bottom: 10vh;
+
+.blurb{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 20%;
+}
+
+@media screen and (max-width: 1355px) {
+  .aboutMe{
+    min-height: 20vh;
+  }
+  .blurb {
+      display: flex;
+      flex-direction: column;
+      padding: 1% 5%;
+    }
 }

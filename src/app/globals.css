@@ -4,6 +4,7 @@ body {
   position: relative;
   background-color: black;
   color: yellowgreen;
+  overflow-x: hidden;
 }
 
 h1 {

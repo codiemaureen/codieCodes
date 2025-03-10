@@ -8,7 +8,9 @@
  list-style-type: none;
  color: black;
  text-transform: uppercase;
- text-align: start
+ text-align: start;
+ margin: 0;
+ padding: 0;
 }
 
 .detailItems {
