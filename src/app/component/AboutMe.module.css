@@ -1,27 +1,33 @@
 .aboutMe{
  display: flex;
+ min-width: 100vw;
+ margin: 0;
+ padding: 0;
  border-top: 10px solid darkgreen;
- text-align: center;
  background-color: black;
  min-height: 40vh;
- min-width: 100%;
  justify-content: space-between;
 }
 
 
 .blurb{
+  margin: 0;
+  padding: 0;
+  max-width: 30%;
   display: flex;
   flex-direction: column;
-  padding: 5% 20%;
+  text-align: center;
 }
 
 @media screen and (max-width: 1355px) {
   .aboutMe{
     min-height: 20vh;
   }
+  .aboutHeader{
+    white-space: nowrap;
+    font-size: 3rem;
+  }
   .blurb {
-      display: flex;
-      flex-direction: column;
-      padding: 1% 5%;
+      padding: 2rem;
     }
 }

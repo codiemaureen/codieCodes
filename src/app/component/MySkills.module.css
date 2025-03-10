@@ -1,17 +1,25 @@
 .skillsContainer {
  display: flex;
- justify-self: flex-end;
- max-width: 20%;
- background-color: yellowgreen;
+ justify-content: flex-end;
+ margin-bottom: 1rem;
 }
 
 .skillList {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
  list-style-type: none;
- color: black;
  text-transform: uppercase;
- text-align: start
+ text-align: start;
+ height: 100%;
 }
 
 .skillItems {
- text-decoration: underline;
+ background-color: yellowgreen;
+ color: black;
+ border: 2px solid black;
+ min-width: 90%;
+ margin: 1rem;
+ margin-right: 3rem;
+ padding: 5% 1%;
 }
