@@ -1,4 +1,5 @@
 .aboutMe{
+  display: flex;
  padding: 10vh;
  border-top: 10px solid darkgreen;
  color: greenyellow;
