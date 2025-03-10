@@ -36,9 +36,9 @@
  .detailItems {
   font-size: 1em;
   white-space: wrap;
-  /* padding: 5%; */
   }
   .detailItems:nth-child(3){
    font-size: .55rem;
+   font-weight: bolder;
   }
 }

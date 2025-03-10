@@ -5,6 +5,19 @@
  min-width: 20%;
 }
 
+.listTitle{
+ white-space: nowrap;
+ background-color: green;
+ color: black;
+ border: 2px solid black;
+ min-width: 90%;
+ margin: 1rem;
+ margin-right: 3rem;
+ padding: 5% 0%;
+ text-align: center;
+}
+
+
 .skillList {
  display: flex;
  flex-direction: column;
@@ -14,7 +27,6 @@
  text-align: start;
  height: 100%;
  width: 100%;
-
 }
 
 .skillItems {
@@ -24,5 +36,13 @@
  min-width: 90%;
  margin: 1rem;
  margin-right: 3rem;
- padding: 5% 1%;
+ padding: 5% 0%;
+}
+
+@media screen and (max-width: 860px) {
+ .listTitle{
+  font-size: .70rem;
+  white-space: nowrap;
+  padding: 10% 0%;
+ }
 }
