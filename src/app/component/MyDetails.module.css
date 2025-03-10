@@ -1,3 +1,16 @@
 .detailsContainer {
- color: yellowgreen;
+ display: flex;
+ max-width: 20%;
+ background-color: yellowgreen;
+}
+
+.detailsList{
+ list-style-type: none;
+ color: black;
+ text-transform: uppercase;
+ text-align: start
+}
+
+.detailItems {
+ text-decoration: underline;
 }
