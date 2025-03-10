@@ -1,0 +1,17 @@
+.skillsContainer {
+ display: flex;
+ justify-self: flex-end;
+ max-width: 20%;
+ background-color: yellowgreen;
+}
+
+.skillList {
+ list-style-type: none;
+ color: black;
+ text-transform: uppercase;
+ text-align: start
+}
+
+.skillItems {
+ text-decoration: underline;
+}
