@@ -3,7 +3,7 @@
  flex-direction: column;
  border-top: 10px solid darkgreen;
  color: yellowgreen;
- padding: 10vh;
+ /* padding: 10vh; */
  text-align: center;
 }
 
@@ -20,7 +20,6 @@
 }
 
 .projectsItems{
- padding: 2%;
  width: 25%;
  height: 40%;
  margin: 2%;
