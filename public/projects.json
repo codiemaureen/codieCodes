@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Ideal Mobile Detailing",
+      "description": ".",
+      "githublink": "",
+      "website":"",
+      "frontimage": "/images/portfolio.png",
+      "languages": ["next", "next", "next", "next"],
+      "mobileimage": ""
+    },
+    {
+      "id": 2,
+      "title": "E-commerce App",
+      "description": ".",
+      "githublink": "",
+      "website":"",
+      "frontimage": "/images/portfolio.png",
+      "backimage": "",
+      "mobileimage": ""
+    },
+    {
+      "id": 3,
+      "title": "Nasa's Photo of the Day",
+      "description": "",
+      "githublink": "",
+      "website":"",
+      "frontimage": "/images/portfolio.png",
+      "backimage": "",
+      "mobileimage": ""
+    },
+    {
+      "id": 4,
+      "title": "Nasa's Photo of the Day",
+      "description": "is an app",
+      "githublink": "",
+      "website":"",
+      "frontimage": "/images/portfolio.png",
+      "backimage": "",
+      "mobileimage": ""
+    },
+    {
+      "id": 5,
+      "title": "Nasa's Photo of the Day",
+      "description": "",
+      "githublink": "",
+      "website":"",
+      "frontimage": "/images/portfolio.png",
+      "backimage": "",
+      "mobileimage": ""
+    }
+  ]
+}
