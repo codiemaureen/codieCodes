@@ -20,6 +20,11 @@
   justify-content: center;
 }
 
+.description {
+  max-width: 60%;
+  margin: auto;
+}
+
 @media screen and (max-width: 1355px) {
   .aboutMe{
     min-height: 20vh;
