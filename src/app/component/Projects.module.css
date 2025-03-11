@@ -7,12 +7,6 @@
  text-align: center;
 }
 
-.projectsHeader {
-   margin: auto;
-   font-size: 3em;
-   padding-bottom: 4vh;
-}
-
 .projectsContainer{
  display: flex;
  justify-content: center;

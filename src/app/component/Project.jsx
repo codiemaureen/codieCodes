@@ -1,27 +1,24 @@
-"use client";
 import { useState } from 'react';
 import styles from './Project.module.css';
 import Link from 'next/link';
 
 
-const Project = () => {
- const [isHovering, setIsHovering] = useState(false);
+const Project = ({project}) => {
+  const [isHovering, setIsHovering] = useState(false);
 
- const handleMouseEnter = () => {
-  setIsHovering(true);
- }
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  }
 
- const handleMouseLeave = () => {
-  setIsHovering(false);
- }
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  }
   return (
-   <div className={styles.ProjectContainer} 
+   <div className={styles.projectCard} 
    onMouseEnter={handleMouseEnter}
    onMouseLeave={handleMouseLeave}>
-    <h3 >Project Name</h3>
-    {/* <img src="" alt="" /> */}
+    <h3 className={styles.projectsHeader}>{project.title}</h3>
     {isHovering ? 'Back Image' : 'Front Image'}
-    
     <section className={styles.projectLinks}>
      <Link href={'/'}>Github</Link>
      <Link href={'/'}>WebSite</Link>

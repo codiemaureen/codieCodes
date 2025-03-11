@@ -1,21 +1,31 @@
-import styles from "./Projects.module.css";
-import Project from "./Project";
+"use client";
+import { useEffect, useState } from "react";
+import Project from "./Project"; 
+import styles from "./Projects.module.css"
 
+const ProjectList = () => {
+  const [projects, setProjects] = useState([]);
 
-const Projects = () => {
+  useEffect(() => {
+    fetch("/projects.json")
+      .then((response) => response.json())
+      .then((data) => setProjects(data.projects))
+      .catch((error) => console.error("Error fetching projects:", error));
+  }, []);
+
   return (
     <div className={styles.projects}>
-      <h2>{`<Projects />`}</h2>
       <div className={styles.projectsContainer}>
-       <item className={styles.projectsItems}>{<Project />}</item>
-       <item className={styles.projectsItems}>{<Project />}</item>
-       <item className={styles.projectsItems}>{<Project />}</item>
-       <item className={styles.projectsItems}>{<Project />}</item>
-       <item className={styles.projectsItems}>{<Project />}</item>
-       <item className={styles.projectsItems}>{<Project />}</item>
+
+      
+      {projects.map((project) => (
+        <div className={styles.projectsItems}>
+          <Project key={project.id} project={project} />
+        </div>
+      ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default ProjectList;

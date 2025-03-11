@@ -1,3 +1,15 @@
-.ProjectContainer{
+.projectCard{
  color: yellowgreen;
+}
+
+.projectsHeader {
+ margin: auto;
+ font-size: 2rem;
+ padding-bottom: 4vh;
+}
+
+@media screen and (max-width: 860px) {
+ .projectsHeader {
+   font-size: 1.5em;
+  }
 }
