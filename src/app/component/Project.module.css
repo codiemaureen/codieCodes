@@ -8,8 +8,21 @@
  padding-bottom: 4vh;
 }
 
+.projectLinks {
+ background-color: aliceblue;
+ min-width: 100%;
+ min-height: 5vh;
+ display: flex;
+ justify-content: space-around;
+}
+
 @media screen and (max-width: 860px) {
  .projectsHeader {
-   font-size: 1.5em;
+   font-size: 1em;
   }
+ .projectLinks{
+  flex-direction: column;
+  white-space: nowrap;
+  padding: 2%;
+ }
 }
