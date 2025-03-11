@@ -1,7 +1,6 @@
 .detailsContainer {
  display: flex;
  margin: 0;
- margin-bottom: 1rem;
  min-width: 20%;
 }
 
@@ -20,19 +19,13 @@
 }
 
 .detailItems {
- background-color: yellowgreen;
+  background-color: yellowgreen;
   color: black;
   min-width: 90%;
   padding: 5% 15% 5% 2%;
 }
 
 @media screen and (max-width: 860px) {
- .detailsList{
-  max-width: 90%;
-  margin: 0;
-  padding: 0;
- }
-
  .detailItems {
   font-size: 1em;
   white-space: wrap;
