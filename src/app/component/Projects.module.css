@@ -7,6 +7,12 @@
  text-align: center;
 }
 
+.projectsHeader {
+   margin: auto;
+   font-size: 3em;
+   padding-bottom: 4vh;
+}
+
 .projectsContainer{
  display: flex;
  justify-content: center;
@@ -14,6 +20,7 @@
 }
 
 .projectsItems{
+ padding: 2%;
  width: 25%;
  height: 40%;
  margin: 2%;

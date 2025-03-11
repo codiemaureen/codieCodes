@@ -15,9 +15,8 @@ const ProjectList = () => {
 
   return (
     <div className={styles.projects}>
+      <h2>{'<Projects />'}</h2>
       <div className={styles.projectsContainer}>
-
-      
       {projects.map((project) => (
         <div className={styles.projectsItems}>
           <Project key={project.id} project={project} />
