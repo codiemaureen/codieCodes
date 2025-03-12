@@ -1,5 +1,16 @@
 .projectCard{
  color: yellowgreen;
+ padding: 0;
+ margin: 0;
+}
+
+.projectTitle {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  max-width: 100%;
+  padding: 2rem;
+  white-space: nowrap;
 }
 
 .projectLinks {
@@ -11,10 +22,12 @@
 }
 
 @media screen and (max-width: 860px) {
- .projectsHeader {
-   font-size: 1em;
+.projectTitle {
+  font-size: .55rem;
+  padding: 0;
   }
- .projectLinks{
+
+  .projectLinks{
   flex-direction: column;
   white-space: nowrap;
  }
