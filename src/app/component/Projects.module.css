@@ -3,25 +3,21 @@
  flex-direction: column;
  border-top: 10px solid darkgreen;
  color: yellowgreen;
- /* padding: 10vh; */
  text-align: center;
-}
-
-.projectsHeader {
-   margin: auto;
-   font-size: 3em;
-   padding-bottom: 4vh;
 }
 
 .projectsContainer{
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
+
 }
 
 .projectsItems{
  width: 25%;
  height: 40%;
  margin: 2%;
+ padding: 0;
+ /* margin: 0; */
  border: 3px solid green;
 }

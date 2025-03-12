@@ -1,21 +1,40 @@
 .projectCard{
- color: yellowgreen;
+  margin: 0;
+  padding: 0;
+  color: yellowgreen;
+  }
+
+.projectTitle {
+  margin: 0;
+  max-width: 100%;
+  padding: 2rem;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
 .projectLinks {
- background-color: aliceblue;
- min-width: 100%;
- min-height: 5vh;
- display: flex;
- justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  min-height: 5vh;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 1450px) {
+  .projectTitle {
+    padding: 0;
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 860px) {
- .projectsHeader {
-   font-size: 1em;
+  .projectTitle {
+    padding: 0;
+    font-size: .55rem;
   }
- .projectLinks{
-  flex-direction: column;
-  white-space: nowrap;
- }
+
+  .projectLinks{
+    flex-direction: column;
+    white-space: nowrap;
+  }
 }
