@@ -4,49 +4,30 @@
       "id": 1,
       "title": "Ideal Mobile Detailing",
       "description": ".",
-      "githublink": "",
-      "website":"",
-      "frontimage": "/images/portfolio.png",
+      "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
+      "website":"https://codiemaureen.github.io/IdealMobileDetailing/index.html",
+      "frontimage":"/IdealMobileDetailing.png",
       "languages": ["next", "next", "next", "next"],
       "mobileimage": ""
     },
-    {
+        {
       "id": 2,
-      "title": "E-commerce App",
-      "description": ".",
-      "githublink": "",
-      "website":"",
-      "frontimage": "/images/portfolio.png",
+      "title": "Nasa's Photo of the Day",
+      "description": "",
+      "githublink": "https://github.com/codiemaureen/Nasa_API",
+      "website":"https://codiemaureen.github.io/Nasa_API/",
+      "frontimage":"/Nasa_Photos.png",
+      "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
     },
     {
       "id": 3,
-      "title": "Nasa's Photo of the Day",
+      "title": "React To Do List",
       "description": "",
-      "githublink": "",
-      "website":"",
-      "frontimage": "/images/portfolio.png",
-      "backimage": "",
-      "mobileimage": ""
-    },
-    {
-      "id": 4,
-      "title": "Nasa's Photo of the Day",
-      "description": "is an app",
-      "githublink": "",
-      "website":"",
-      "frontimage": "/images/portfolio.png",
-      "backimage": "",
-      "mobileimage": ""
-    },
-    {
-      "id": 5,
-      "title": "Nasa's Photo of the Day",
-      "description": "",
-      "githublink": "",
-      "website":"",
-      "frontimage": "/images/portfolio.png",
+      "githublink": "https://github.com/codiemaureen/ReactToDoList",
+      "website":"https://codiemaureen.github.io/ReactToDoList/index.html",
+      "frontimage":"/reactTaskTracker.png",
       "backimage": "",
       "mobileimage": ""
     }
