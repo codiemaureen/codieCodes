@@ -22,7 +22,7 @@ const ContactForm = () => {
        <div >
        <div className={styles.textbody}>
          <label className={styles.label} htmlFor="message">Enter Your Message:</label>
-         <textarea className={styles.textarea}name="emailBody" id="emailBody" placeholder='Enter your message here...'/>
+         <textarea className={styles.textarea}name="emailBody" rows={4} id="emailBody" placeholder='Enter your message here...'/>
        </div>
        </div>
        <div >
