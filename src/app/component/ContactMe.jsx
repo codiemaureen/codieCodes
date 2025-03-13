@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 const ContactMe = () => {
   return (
-    <div className={styles.contactContainer}>
+    <div id='contactMe' className={styles.contactContainer}>
      <h2>{'<contact me />'}</h2>
      <div className={styles.contactFlex}>
      <ContactForm />
