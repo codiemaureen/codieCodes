@@ -50,11 +50,21 @@
  flex: 1 1 auto;
  padding: 2%;
  text-align: center;
+ text-decoration: none;
+}
+
+.navLink:visited{
+ text-decoration: none;
 }
 
 .navItem{
  color: white;
+ text-decoration: none;
  margin: 0;
+}
+
+.navItem:visited {
+ text-decoration: none;
 }
 
 .navLink:hover {
