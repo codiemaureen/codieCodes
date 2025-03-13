@@ -8,8 +8,8 @@ const Header = () => {
     <div id='navBar' className={styles.navContainer}>
       <Link className={styles.headerTitle} href="#navBar"><h1 className={styles.headerTitle}>Codie Groth</h1></Link>
       <ol  className={styles.navList}>
-        <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>Github</li></Link>
-        <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>LinkedIn</li></Link>
+        <Link className={styles.navLink} href="https://github.com/codiemaureen" target='_blank'><li className={styles.navItem}>Github</li></Link>
+        <Link className={styles.navLink} href="https://www.linkedin.com/in/codiemaureen/" target='_blank'><li className={styles.navItem}>LinkedIn</li></Link>
         <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>Projects</li></Link>
         <Link className={styles.navLink} href="#contactMe"><li className={styles.navItem}>Contact Me</li></Link>
       </ol> 
