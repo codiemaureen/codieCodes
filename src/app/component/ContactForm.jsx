@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id='contactMe' className={styles.formContainer}>
+    <div className={styles.formContainer}>
      <form action="" method="get" className={styles.form} onSubmit={onSubmit}>
        <h2 className={styles.formHeading}>Let's Connect!</h2>
        <div className={styles.emailInput}>
