@@ -13,7 +13,7 @@
   margin-right: 2vw;
   text-decoration: none;
   animation-duration: 3s;
-  animation-name: slide-in;
+  animation-name: slide-out;
   background-color: transparent;
 }
 
@@ -38,6 +38,8 @@
  flex: 3 1 auto;
  padding: 0;
  margin: 0;
+ animation-duration: 3s;
+ animation-name: slide-in;
 }
 .navLink {
  align-self: flex-end;
@@ -61,7 +63,7 @@
 
 @keyframes slide-in {
  from {
-  translate: 150vw 0;
+  translate: -150vw 0;
   scale: 200% 1;
  }
 
@@ -71,6 +73,17 @@
  }
 }
 
+@keyframes slide-out {
+ from {
+  translate: 150vw 0;
+  scale: 200% 1;
+ }
+ to {
+  translate: 0 0;
+  scale: 100% 1;
+ }
+
+}
 
 @media screen and (max-width: 1355px) {
  .navContainer {
