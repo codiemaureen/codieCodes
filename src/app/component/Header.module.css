@@ -1,88 +1,108 @@
 .header {
- border-top: 5px solid darkgreen;
  display: flex;
  flex-direction: column;
  min-width: 100vw;
- min-height: 20vh;
+ min-height: 35vh;
  max-height: 35vh;
- position: relative;
  overflow: hidden;
  background-color: black;
+ justify-content: space-between;
 }
 
 .headerTitle{
- padding-left: 1vw;
- color: rgb(8, 124, 8);
- background-color: black;
- margin: auto;
- flex: 1 1 auto;
- text-transform: uppercase;
- font-size: 5em;
+  margin-right: 2vw;
+  text-decoration: none;
+  animation-duration: 3s;
+  animation-name: slide-in;
+  background-color: transparent;
 }
 
 .headerImage {
+ padding-top: 15vh;
  width: 100%;
  object-fit: cover;
- position: absolute;
- animation: scrollImage 8s linear infinite;
+ /* position: absolute; */
 }
 
 .navContainer {
  display: flex;
-
  min-width: 100vw;
- /* justify-content: space-evenly; */
  flex-wrap: wrap;
  background-color: black;
- cursor: text;
- padding-bottom: 0;
+ position: fixed;
+ z-index: 3000;
 }
 
-.navItem {
+.navList{
+ display: flex;
+ flex: 3 1 auto;
+ padding: 0;
+ margin: 0;
+}
+.navLink {
+ align-self: flex-end;
+ list-style: none;
  font-weight: 700;
- color: white;
  background-color: darkgreen;
  margin: 20px;
  flex: 1 1 auto;
- padding: 1%;
+ padding: 2%;
  text-align: center;
 }
 
-.navItem:hover {
+.navItem{
+ color: white;
+ margin: 0;
+}
+
+.navLink:hover {
  cursor: pointer;
 }
 
-@keyframes scrollImage {
+@keyframes slide-in {
  from {
-  top: 100%;
+  translate: 150vw 0;
+  scale: 200% 1;
  }
 
  to {
-  top: -100%;
+  translate: 0 0;
+  scale: 100% 1;
  }
 }
 
+
 @media screen and (max-width: 1355px) {
  .navContainer {
+  position: relative;
   flex-direction: column;
-  justify-content: space-around;
   min-width: 100vw;
+  margin: 0;
  }
 
  .header {
   min-height: 10vh;
   order: 1;
  }
+ .headerTitle{
+  text-align: center;
+ }
+ .navList{
+  flex-direction: column;
+  margin: 0;
+ }
 
- .navItem {
-  padding: 1rem 1rem;
-  max-height: 1vh;
-  margin: 1vh 2vw;
+ .navLink {
+  align-self: stretch;
+  min-width: 100vw;
+  padding: 1rem 2rem;
+  max-height: 4vh;
+  margin: 1vh;
   order: 2;
  }
 
- .header {
-  margin: 0;
-  padding: 0;
+ .navItem {
+  font-size: 120%;
  }
+
 }

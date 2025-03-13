@@ -2,6 +2,7 @@
  display: flex;
  flex-direction: column;
  border-top: 10px solid darkgreen;
+ padding-top: 10vh;
  color: yellowgreen;
  text-align: center;
 }
@@ -18,6 +19,5 @@
  height: 40%;
  margin: 2%;
  padding: 0;
- /* margin: 0; */
  border: 3px solid green;
 }

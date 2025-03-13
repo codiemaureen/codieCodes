@@ -1,18 +1,24 @@
 import styles from './Header.module.css';
+import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className={styles.navContainer}>
-      <h1>Codie Groth</h1>
-      <div className={styles.navItem}>ABOUTME.md</div>
-      <div className={styles.navItem}>Github.com</div>
-      <div className={styles.navItem}>LinkedIn.com</div>
-      <div className={styles.navItem}>Projects</div>
-      <div className={styles.navItem}>Contact Me</div>
+    <>
+    
+    <div id='navBar' className={styles.navContainer}>
+      <Link className={styles.headerTitle} href="#navBar"><h1 className={styles.headerTitle}>Codie Groth</h1></Link>
+      <ol  className={styles.navList}>
+        <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>Github</li></Link>
+        <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>LinkedIn</li></Link>
+        <Link className={styles.navLink} href="#projects"><li className={styles.navItem}>Projects</li></Link>
+        <Link className={styles.navLink} href="#contactMe"><li className={styles.navItem}>Contact Me</li></Link>
+      </ol> 
+    </div>
       <header className={styles.header}>
         <img src='/pexels-pixabay-270632.jpg' alt='' className={styles.headerImage} />
       </header>
-    </div>
+   
+    </>
   )
 }
 
