@@ -2,7 +2,7 @@
  display: flex;
  min-width: 100vw;
  margin: 0;
- padding: 0;
+ padding: 1vh 0;
  border-top: 10px solid darkgreen;
  background-color: black;
  min-height: 40vh;
