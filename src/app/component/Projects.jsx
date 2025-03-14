@@ -15,13 +15,13 @@ const ProjectList = () => {
 
   return (
     <div id="projects" className={styles.projects}>
-      <h2 >{'<Projects />'}</h2>
+      <h2 >{'My Projects'}</h2>
       <div className={styles.projectsContainer}>
-      {projects.map((project) => (
-        <div className={styles.projectsItems}>
-          <Project key={project.id} project={project} />
-        </div>
-      ))}
+        {projects.map((project) => (
+          <div className={styles.projectsItems}>
+            <Project key={project.id} project={project} />
+          </div>
+        ))}
       </div>
     </div>
   );
