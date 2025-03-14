@@ -5,15 +5,18 @@
 .form {
  display: flex;
  flex-direction: column;
- background-color: yellowgreen;
- color: black;
+ background-color: rgb(2, 39, 2);
+ border-radius: 1rem;
+ color: white;
  margin: 1rem;
- padding: 1em;
- border: 2px solid yellowgreen;
- font-size: 2rem;
+ padding: 0 3rem;
+ font-size: 1.5rem;
 }
-
+.formHeading{
+ padding: 0 1rem;
+}
 .label{
+ margin: 1vh 0;
  display: block;
 }
 
@@ -22,6 +25,10 @@
 }
 .textarea {
  min-width: 70%;
+}
+
+.button{
+ margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 450px) {
