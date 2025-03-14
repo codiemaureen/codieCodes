@@ -40,13 +40,19 @@ const MyDetails = () => {
             url="https://calendly.com/codiegroth/30min"
             rootElement={rootElement}
             text="Schedule a Meeting"
-            className={styles.coffeeChat}
+            className={styles.modal}
           />
         </li>
         <li className={styles.detailItems}>
-          <a href="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" target='_blank'>
+          <PopupButton
+            url="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" 
+            rootElement={rootElement}
+            text="Visit My Github City"
+            className={styles.modal}
+          />
+          {/* <a href="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" target='_blank'>
             Visit My Github City
-          </a>
+          </a> */}
         </li>
       </ol>
     </div>
