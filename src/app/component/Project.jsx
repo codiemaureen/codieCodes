@@ -19,12 +19,13 @@ const Project = ({project}) => {
    onMouseEnter={handleMouseEnter}
    onMouseLeave={handleMouseLeave}>
     <h3 className={styles.projectTitle}>{project.title}</h3>
-    {/* {isHovering ? <div>{project.languages}</div> : <Image src={project.frontimage} alt={project.title} width="300" height="100" />} */}
-    <Image src={project.frontimage} alt={project.title} layout="intrinsic" width={300} height={300} objectFit="cover"/>
+    <Link href={project.website} target='_blank'>
+      <Image src={project.frontimage} alt={project.title} layout="intrinsic" width={300} height={300} objectFit="cover"/>
+    </Link>
+    
     <section className={styles.projectLinks}>
-     <Link href={project.githublink} target='_blank'>Github</Link>
-     <Link href={project.website} target='_blank'>WebSite</Link>
-     {/* <Link href={'/'}>Mobile Preview</Link> */}
+     <Link className={styles.projectLink} href={project.githublink} target='_blank'>Github</Link>
+     <Link className={styles.projectLink} href={project.website} target='_blank'>Website</Link>
     </section>
    </div>
   )

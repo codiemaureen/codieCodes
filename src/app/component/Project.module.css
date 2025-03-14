@@ -1,7 +1,7 @@
 .projectCard{
   margin: 0;
   padding: 0;
-  color: yellowgreen;
+  color: white;
   }
 
 .projectTitle {
@@ -16,8 +16,18 @@
   display: flex;
   justify-content: space-around;
   min-width: 100%;
+  text-decoration: none;
   min-height: 5vh;
   background-color: aliceblue;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.projectLink{
+  color: rgb(2, 39, 2);
+  padding: 5% 0;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1450px) {
