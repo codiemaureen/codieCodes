@@ -8,9 +8,9 @@
 .listTitle{
  white-space: nowrap;
  background-color: green;
+ font-size: 2rem;
  color: black;
- /* min-width: 100%; */
- padding: 5%;
+ padding: 5% 0;
  text-align: center;
 }
 
@@ -22,13 +22,16 @@
  list-style-type: none;
  text-transform: uppercase;
  text-align: start;
+ font-weight: 800;
+ font-size: 1rem;
+ font-stretch: expanded;
  height: 100%;
  width: 100%;
 }
 
 .skillItems {
- background-color: yellowgreen;
- color: black;
+ background-color: rgb(2, 39, 2);
+ color: white;
  border: 2px solid black;
  min-width: 90%;
  padding: 5%;
@@ -36,7 +39,7 @@
 
 @media screen and (max-width: 860px) {
  .listTitle{
-  font-size: .70rem;
+  font-size: .6rem;
   white-space: nowrap;
   padding: 10% 0%;
  }
