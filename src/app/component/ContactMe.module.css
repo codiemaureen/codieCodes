@@ -1,8 +1,7 @@
 .contactContainer {
- padding-top: 10vh;
+ padding: 10vh 0;
  text-align: center;
- border-top: 5px solid greenyellow;
- color: yellowgreen;
+ color: rgb(2, 39, 2);
 }
 
 .contactFlex{
