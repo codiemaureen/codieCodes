@@ -20,30 +20,30 @@ const ContactMe = () => {
         <ContactForm />
         <ol className={styles.contactList}>
             <li className={styles.contactItem}>    
-              <a href="mailto:codiegroth?subject=Hello%20there&body=I%20wanted%20to%20reach%20out">
+              <a href="mailto:codiegroth?subject=Hello%20there&body=I%20wanted%20to%20reach%20out" className={styles.contactLink}>
                 CodieGroth@Gmail.com
               </a>
             </li>
             <li className={styles.contactItem}>
-              <Link href="tel:+15868643218">
+              <Link href="tel:+15868643218" className={styles.contactLink}>
                 586.864.3218
               </Link>
             </li>
             <li className={styles.contactItem}>
-              <Link href="https://github.com/codiemaureen" target='_blank'>
+              <Link href="https://github.com/codiemaureen" target='_blank' className={styles.contactLink}>
                 Github
               </Link>
             </li>
             <li className={styles.contactItem}>
-              <Link href="https://www.linkedin.com/in/codiemaureen/" target='_blank'>LinkedIn
+              <Link href="https://www.linkedin.com/in/codiemaureen/" target='_blank' className={styles.contactLink}>LinkedIn
               </Link>
             </li>
-            <li className={styles.contactItem}>
+            <li >
               <PopupButton
                 url="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" 
                 rootElement={rootElement}
                 text="Visit My Github City"
-                className={styles.modal}
+                className={styles.button}
               />
             </li>            
         </ol>

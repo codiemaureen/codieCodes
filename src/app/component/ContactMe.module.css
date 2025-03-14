@@ -7,18 +7,34 @@
 .contactFlex{
  display: flex;
  justify-content: space-evenly;
+ align-items: center;
 }
 
 .contactList{
  text-align: start;
  list-style-type: none;
- padding: 0;
 }
 
 .contactItem {
  font-size: 2em;
  padding: 1rem;
  padding-left: 0;
+ text-decoration: none;
+}
+
+
+.contactLink{
+ color: rgb(2, 39, 2);
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+.button {
+ padding: 1rem;
+ color:white;
+ font-size: 1rem;
+ background-color: rgb(2, 39, 2);
+ cursor: pointer;
 }
 
 @media screen and (max-width: 1030px){
@@ -30,6 +46,16 @@
 
 @media screen and (max-width: 450px) {
  .contactHeader {
-  padding: 1rem;
+  padding:0 1rem ;
+  margin: 0;
+ }
+ .contactList{
+  text-align: center;
+ }
+ .contactItem {
+  font-size: 1rem;
+ }
+ .button {
+  font-size: .7rem;
  }
 }
