@@ -7,27 +7,32 @@ const MyDetails = () => {
   const [rootElement, setRootElement] = useState(null);
 
   useEffect(() => {
-    // Set the root element after the component mounts
     setRootElement(document.getElementById("__next"));
   }, []);
 
   return (
     <div className={styles.detailsContainer}>
       <ol className={styles.detailsList}>
-        <li className={styles.detailItems}>Full Stack Software Engineer</li>
-        <li className={styles.detailItems}>Metro Detroit</li>
+        <li className={styles.detailItems}>
+          Full Stack Software Engineer
+        </li>
+        <li className={styles.detailItems}>
+          Metro Detroit
+        </li>
         <li className={styles.detailItems}>    
-          <a href="mailto:codiegroth?subject=Hello%20there&body=I%20wanted%20to%20reach%20out">
+          <a href="mailto:codiegroth?subject=Hello%20there&body=I%20wanted%20to%20reach%20out"
+          className={styles.detailItems}>
             CodieGroth@Gmail.com
           </a>
         </li>
         <li className={styles.detailItems}>
-          <a href="https://github.com/codiemaureen" target='_blank'>
+          <a  href="https://github.com/codiemaureen" target='_blank'
+          className={styles.detailItems}>
             Github
           </a>
         </li>
         <li className={styles.detailItems}>
-          <a href="https://github.com/codiemaureen" target='_blank'>
+          <a className={styles.detailItems} href="https://github.com/codiemaureen" target='_blank'>
             LinkedIn
           </a>
         </li>         
@@ -46,9 +51,6 @@ const MyDetails = () => {
             text="Visit My Github City"
             className={styles.modal}
           />
-          {/* <a href="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" target='_blank'>
-            Visit My Github City
-          </a> */}
         </li>
       </ol>
     </div>

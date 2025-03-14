@@ -20,11 +20,16 @@
 .modal{
   all:unset;
   width: 100%;
+  cursor: pointer;
 }
 
 .detailItems {
-  background-color: yellowgreen;
-  color: black;
+  background-color: rgb(2, 39, 2);
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+  font-stretch: expanded;
   min-width: 90%;
   padding: 5% 15% 5% 2%;
   border: none;
@@ -36,7 +41,7 @@
   white-space: wrap;
   }
   .detailItems:nth-child(3){
-   font-size: .55rem;
+   font-size: .40rem;
    font-weight: bolder;
   }
 }
