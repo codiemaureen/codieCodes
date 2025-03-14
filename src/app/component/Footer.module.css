@@ -1,11 +1,12 @@
 .footer{
+ background-image: url('../../../public/pexels-sarah-ann-3164915-7031427.jpg');
+ background-position: 50% 50%;
  display: flex;
  flex-direction: column;
  margin-top: 20px;
  padding-top: 2em;
- border-top: 5px solid yellowgreen;
  font-size: 2em;
- color: yellowgreen;
+ color: white;
 }
 
 .footerTitle{

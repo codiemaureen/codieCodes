@@ -5,6 +5,13 @@ const Footer = () => {
     <div className={styles.footer}>
       <h3 className={styles.footerTitle}>Website By Codie Groth</h3>
       <section className={styles.credContainer}>
+       <div className={styles.imageCredContainer}>
+        <h4 className={styles.imageCredit}>Image Credits</h4>
+        <ul className={styles.imageCred}>
+         <li className={styles.image}>images 1</li>
+        </ul>
+       </div>
+
        <div className={styles.iconCredContainer}>
         <h4 className={styles.iconCredit}>Icon Credit </h4>
         <ul className="iconCred">
@@ -13,16 +20,8 @@ const Footer = () => {
          <li className="icons">icons 3</li>
         </ul>
        </div>
-       <div className={styles.imageCredContainer}>
-        <h4 className={styles.imageCredit}>Image Credit</h4>
-        <ul className={styles.imageCred}>
-         <li className={styles.images}>images 1</li>
-         <li className={styles.images}>images 2</li>
-         <li className={styles.images}>images 3</li>
-        </ul>
-       </div>
       </section>
-      <button className={styles.returnHome}>Codie Groth</button>
+      <button className={styles.returnHome}>Home</button>
     </div>
   )
 }
