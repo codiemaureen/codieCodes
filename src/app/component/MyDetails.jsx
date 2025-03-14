@@ -1,6 +1,20 @@
-import styles from './MyDetails.module.css'
+'use client'; 
+import styles from './MyDetails.module.css';
+import { PopupButton } from 'react-calendly';
+import { useState, useEffect } from 'react';
 
 const MyDetails = () => {
+  const [rootElement, setRootElement] = useState(null);
+
+  useEffect(() => {
+    // Set the root element after the component mounts
+    setRootElement(document.getElementById("__next"));
+  }, []);
+
+  if (!rootElement) {
+    return null; // Don't render until the root element is set
+  }
+
   return (
     <div className={styles.detailsContainer}>
       <ol className={styles.detailsList}>
@@ -21,7 +35,14 @@ const MyDetails = () => {
             LinkedIn
           </a>
         </li>         
-        <li className={styles.detailItems}>Schedule a Coffee Chat</li>
+        <li className={styles.detailItems}>
+          <PopupButton
+            url="https://calendly.com/codiegroth/30min"
+            rootElement={rootElement}
+            text="Schedule a Meeting"
+            className={styles.coffeeChat}
+          />
+        </li>
         <li className={styles.detailItems}>
           <a href="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" target='_blank'>
             Visit My Github City
