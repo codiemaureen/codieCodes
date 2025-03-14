@@ -11,10 +11,6 @@ const MyDetails = () => {
     setRootElement(document.getElementById("__next"));
   }, []);
 
-  if (!rootElement) {
-    return null; // Don't render until the root element is set
-  }
-
   return (
     <div className={styles.detailsContainer}>
       <ol className={styles.detailsList}>
