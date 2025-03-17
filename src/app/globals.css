@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 h1 {
     padding-left: 1vw;
     margin: auto;
