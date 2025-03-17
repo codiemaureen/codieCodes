@@ -19,37 +19,37 @@ const MyDetails = () => {
         <li className={styles.detailItems}>
           Metro Detroit
         </li>
-        <li className={styles.detailItems}>    
+        <li className={`${styles.detailItems} ${styles.detailLink}`}>    
           <a href="mailto:codiegroth?subject=Hello%20there&body=I%20wanted%20to%20reach%20out"
-          className={styles.detailItems}>
+          className={`${styles.detailItems} ${styles.detailLink}`}>
             CodieGroth@Gmail.com
           </a>
         </li>
-        <li className={styles.detailItems}>
+        <li className={`${styles.detailItems} ${styles.detailLink}`}>
           <a  href="https://github.com/codiemaureen" target='_blank'
-          className={styles.detailItems}>
+          className={`${styles.detailItems} ${styles.detailLink}`}>
             Github
           </a>
         </li>
-        <li className={styles.detailItems}>
-          <a className={styles.detailItems} href="https://github.com/codiemaureen" target='_blank'>
+        <li className={`${styles.detailItems} ${styles.detailLink}`}>
+          <a className={`${styles.detailItems} ${styles.detailLink}`} href="https://github.com/codiemaureen" target='_blank'>
             LinkedIn
           </a>
         </li>         
-        <li className={styles.detailItems}>
+        <li className={`${styles.detailItems} ${styles.detailLink}`}>
           <PopupButton
             url="https://calendly.com/codiegroth/30min"
             rootElement={rootElement}
             text="Schedule a Meeting"
-            className={styles.modal}
+            className={`${styles.modal} ${styles.detailLink}`}
           />
         </li>
-        <li className={styles.detailItems}>
+        <li className={`${styles.detailItems} ${styles.detailLink}`}>
           <PopupButton
             url="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" 
             rootElement={rootElement}
             text="Visit My Github City"
-            className={styles.modal}
+            className={`${styles.modal} ${styles.detailLink}`}
           />
         </li>
       </ol>

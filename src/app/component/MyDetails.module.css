@@ -35,6 +35,20 @@
   border: none;
 }
 
+.detailLink:hover {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+
+@keyframes scale-up {
+  from {
+    scale: 100% 0;
+  }
+
+  to {
+    scale: 200% 0;
+  }
+}
 @media screen and (max-width: 960px) {
  .detailItems {
   font-size: 1em;
