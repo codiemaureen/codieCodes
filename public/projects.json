@@ -6,7 +6,7 @@
       "description": ".",
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
       "website":"https://codiemaureen.github.io/IdealMobileDetailing/index.html",
-      "frontimage":"/IdealMobileDetailing.png",
+      "frontimage":"/ideal_mobile_detailing.png",
       "languages": ["next", "next", "next", "next"],
       "mobileimage": ""
     },
@@ -16,7 +16,7 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/Nasa_API",
       "website":"https://codiemaureen.github.io/Nasa_API/",
-      "frontimage":"/Nasa_Photos.png",
+      "frontimage":"/nasa_photo.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
@@ -27,7 +27,7 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/ReactToDoList",
       "website":"https://codiemaureen.github.io/ReactToDoList/index.html",
-      "frontimage":"/reactTaskTracker.png",
+      "frontimage":"/react_task_tracker.png",
       "backimage": "",
       "mobileimage": ""
     }
