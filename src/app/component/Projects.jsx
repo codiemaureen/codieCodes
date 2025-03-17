@@ -18,8 +18,8 @@ const ProjectList = () => {
       <h2 >{'My Projects'}</h2>
       <div className={styles.projectsContainer}>
         {projects.map((project) => (
-          <div className={styles.projectsItems}>
-            <Project key={project.id} project={project} />
+          <div key={project.id} className={styles.projectsItems}>
+            <Project project={project} />
           </div>
         ))}
       </div>
