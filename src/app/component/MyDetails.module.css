@@ -49,23 +49,26 @@
     scale: 200% 0;
   }
 }
-@media screen and (max-width: 960px) {
- .detailItems {
-  font-size: 1em;
-  white-space: wrap;
+@media screen and (max-width: 1355px) {
+.detailsContainer {
+    padding: 0;
+    margin: 0;
+    order: 1;
+    width: 100%;
   }
-  .detailItems:nth-child(3){
-   font-size: .5rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
   .detailItems {
-    font-size: 1em;
+    padding: 5% 0;
+    padding-left: 1%;
+    margin: 0;
+    font-size: 100%;
     white-space: wrap;
   }
 
-  .detailItems:nth-child(3) {
-    font-size: .4rem;
+  .detailLink .detailItems{
+    background-color: transparent;
+    padding: 5% 0;
+    padding-left: 1%;
+    margin: 0;
+    font-size: 100%;
   }
 }

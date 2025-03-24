@@ -1,4 +1,4 @@
-'use client'; 
+  'use client'; 
 import styles from './MyDetails.module.css';
 import { PopupButton } from 'react-calendly';
 import { useState, useEffect } from 'react';
