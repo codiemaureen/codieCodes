@@ -3,8 +3,9 @@ import styles from './MySkills.module.css';
 const MySkills = () => {
   return (
     <div className={styles.skillsContainer}>
+    <h4 className={styles.listTitleMobile}>My Languages</h4>
       <ol className={styles.skillList}>
-        <h4 className={styles.listTitle}>My Languages</h4>
+            <h4 className={styles.listTitleWeb}>My Languages</h4>
         <li className={styles.skillItems}>
           NEXT.JS
         </li>
