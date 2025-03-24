@@ -1,9 +1,9 @@
 .projects{
  display: flex;
  flex-direction: column;
+ padding: 15% 0;
  min-width: 100vw;
  background-color: rgb(2, 39, 2);
- padding: 20vh 0;
  color: white;
  text-align: center;
 }
@@ -11,15 +11,23 @@
 .projectsContainer{
  display: flex;
  justify-content: center;
- flex-wrap: wrap;
-
 }
 
 .projectsItems{
  width: 25%;
- height: 40%;
- margin: 2%;
+ height: 90%;
+ margin: 0 1%;
  padding: 0;
  border-radius: 1rem;
  background-color: rgba(255, 255, 255, 0.276);
+}
+
+@media screen and (max-width: 1355px) {
+ .projects{
+  height: 90vh;
+  padding-bottom: 15%;
+ }
+  .projectsTitle{
+   margin: 25vh 0;
+  }
 }
