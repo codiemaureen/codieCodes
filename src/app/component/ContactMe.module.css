@@ -1,5 +1,5 @@
 .contactContainer {
- padding: 11vh 0;
+ padding-top: 15%;
  text-align: center;
  color: rgb(2, 39, 2);
 }
@@ -37,25 +37,27 @@
  cursor: pointer;
 }
 
-@media screen and (max-width: 1030px){
- .contactFlex {
-  flex-direction: column;
-  align-items: center;
- }
-}
 
-@media screen and (max-width: 450px) {
- .contactHeader {
-  padding:0 1rem ;
-  margin: 0;
- }
- .contactList{
-  text-align: center;
- }
- .contactItem {
-  font-size: 1rem;
- }
- .button {
-  font-size: .7rem;
- }
+@media screen and (max-width: 1355px) {
+  .contactContainer {
+    height: 100%;
+    /* padding-top: 20vh; */
+  }
+  .contactFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactHeader {
+    margin: 0;
+    margin-bottom: 20vh;
+  }
+  .contactList{
+    text-align: center;
+  }
+  .contactItem {
+    font-size: 1rem;
+  }
+  .button {
+    font-size: .7rem;
+  }
 }

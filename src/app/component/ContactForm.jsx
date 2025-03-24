@@ -37,9 +37,10 @@ const ContactForm = () => {
         <h2 className={styles.formHeading}>
           Let's Connect!
         </h2>
+
         <div className={styles.emailInput}>
           <label 
-            className={styles.label}          htmlFor="email">
+            className={styles.label} htmlFor="email">
             Enter Your Email: 
           </label>
           <input 
@@ -62,7 +63,7 @@ const ContactForm = () => {
             autoComplete="off"
             placeholder='Enter your subject here...' required />
         </div>
-        <div>
+        <div className={styles.emailInput}>
           <div className={styles.textbody}>
             <label className={styles.label} htmlFor="message">Enter Your Message:</label>
             <textarea 

@@ -15,7 +15,7 @@ const ContactMe = () => {
 
   return (
     <div id='contactMe' className={styles.contactContainer}>
-      <h2>{'contact me'}</h2>
+      <h2 className={styles.contactHeader}>{'contact me'}</h2>
       <div className={styles.contactFlex}>
         <ContactForm />
         <ol className={styles.contactList}>
