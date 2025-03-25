@@ -24,10 +24,10 @@
 
 @media screen and (max-width: 1355px) {
   .aboutMe{
+    margin-top: 15%;
     flex-direction: column;
     min-width: 100vw;
     align-items: center;
-    padding-top: 40vh;
   }
 
   .aboutHeader{
