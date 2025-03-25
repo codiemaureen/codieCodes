@@ -1,7 +1,7 @@
 .projects{
  display: flex;
  flex-direction: column;
- padding: 15% 0;
+ padding: 10% 0;
  min-width: 100vw;
  background-color: rgb(2, 39, 2);
  color: white;
@@ -14,20 +14,36 @@
 }
 
 .projectsItems{
- width: 25%;
- height: 90%;
- margin: 0 1%;
+ max-width: 25%;
+ height: 80%;
+ margin: 1%;
  padding: 0;
- border-radius: 1rem;
  background-color: rgba(255, 255, 255, 0.276);
 }
 
 @media screen and (max-width: 1355px) {
- .projects{
-  height: 90vh;
-  padding-bottom: 15%;
- }
+  .projects {
+      padding: 10% 0;
+    }
+  
+    .projectsTitle {
+      padding-top: 20%;
+    }
+  
+    .projectsContainer {
+      margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+  .projects {
+    padding: 40% 0;
+  }
   .projectsTitle{
-   margin: 25vh 0;
+    padding: 20% 0;
+  }
+
+  .projectsContainer {
+    margin-bottom: 20%;
   }
 }
