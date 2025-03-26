@@ -1,9 +1,12 @@
 .contactContainer {
- padding-top: 15%;
+ margin: 10% 0;
  text-align: center;
  color: rgb(2, 39, 2);
 }
 
+.contactHeader{
+  padding-top: 5%;
+}
 .contactFlex{
  display: flex;
  justify-content: space-evenly;
