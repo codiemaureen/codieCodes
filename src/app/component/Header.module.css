@@ -68,6 +68,7 @@
 
 .navLink:hover{
   font-size: 2rem;
+  cursor: pointer;
   opacity: 0.8;
 }
 
@@ -82,19 +83,6 @@
 
 .navItem:visited {
   text-decoration: none;
-}
-
-.navLink:hover {
-  cursor: pointer;
-}
-
-@keyframes scale-up {
-  from{
-    scale: 100% 0;
-  }
-  to {
-    scale: 200% 0;
-  }
 }
 
 @keyframes slide-in {
@@ -165,7 +153,7 @@
   }
 
   .navLink:hover {
-    font-size: 1.5rem;
+    font-size: 100%;
     opacity: 0.8;
   }
 
