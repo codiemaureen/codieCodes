@@ -50,8 +50,14 @@
  color: white;
 }
 
-@media screen and (max-width: 460px) {
- .icon {
-   font-size: .5em;
+@media screen and (max-width: 1355px) {
+  .footer{
+    font-size: 100%;
+  }
+  .footerTitle{
+    font-size: 100%;
+  }
+  .icon{
+    font-size: 50%;
   }
 }
