@@ -32,7 +32,7 @@ const MyDetails = () => {
           </a>
         </li>
         <li className={`${styles.detailItems} ${styles.detailLink}`}>
-          <a className={`${styles.detailItems} ${styles.detailLink}`} href="https://github.com/codiemaureen" target='_blank'>
+          <a className={`${styles.detailItems} ${styles.detailLink}`} href="https://www.linkedin.com/in/codiemaureen/" target='_blank'>
             LinkedIn
           </a>
         </li>         
