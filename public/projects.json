@@ -8,9 +8,21 @@
       "website":"https://codiemaureen.github.io/IdealMobileDetailing/index.html",
       "frontimage":"/ideal_mobile_detailing.png",
       "languages": ["next", "next", "next", "next"],
+      "backimage": "",
       "mobileimage": ""
     },
-        {
+    {
+      "id": 2,
+      "title": "Serenity Springs Spa",
+      "description": "",
+      "githublink": "https://github.com/codiemaureen/SerenitySpringsSpa",
+      "website":"https://codiemaureen.github.io/SerenitySpringsSpa/index.html",
+      "frontimage":"/serenity_springs.png",
+      "languages": ["next", "next", "next", "next"],
+      "backimage": "",
+      "mobileimage": ""
+    },
+    {
       "id": 2,
       "title": "Nasa's Photo of the Day",
       "description": "",
