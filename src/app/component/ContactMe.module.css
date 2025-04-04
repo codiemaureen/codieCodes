@@ -1,11 +1,11 @@
 .contactContainer {
- margin: 10% 0;
+ /* margin: 10% 0; */
  text-align: center;
  color: rgb(2, 39, 2);
 }
 
 .contactHeader{
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 .contactFlex{
  display: flex;
@@ -20,7 +20,7 @@
 
 .contactItem {
  font-size: 2em;
- padding: 1rem;
+ /* padding: 1rem; */
  padding-left: 0;
  text-decoration: none;
 }
@@ -44,15 +44,14 @@
 @media screen and (max-width: 1355px) {
   .contactContainer {
     height: 100%;
-    /* padding-top: 20vh; */
+    padding-top: 20vh;
   }
   .contactFlex {
     flex-direction: column;
     align-items: center;
   }
   .contactHeader {
-    margin: 0;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
   }
   .contactList{
     text-align: center;

@@ -6,11 +6,13 @@
   display: flex;
   flex-direction: column;
   min-height: 50vh;
-  width: 30vw;
+  min-width: 35vw;
+  max-width: 70vw;
   background-color: rgb(2, 39, 2);
   border-radius: 1rem;
   color: white;
   margin: 1%;
+  padding: 5%;
   font-size: 1rem;
 }
 .formHeading{
@@ -25,4 +27,16 @@
 }
 .textarea {
   width: 70%;
+}
+
+@media screen and (max-width: 900px) {
+  .formContainer{
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .form{
+    width: 80vw;
+    max-height: 20vh;
+  }
 }
