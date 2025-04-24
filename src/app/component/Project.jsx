@@ -19,9 +19,13 @@ const Project = ({project}) => {
    onMouseEnter={handleMouseEnter}
    onMouseLeave={handleMouseLeave}>
     <h3 className={styles.projectTitle}>{project.title}</h3>
-      <Link href={project.website} target='_blank'>
-      <img src={project.frontimage} alt={project.title} className={styles.projectImage}/>
-      </Link>
+        <iframe 
+          src={project.website}
+          title={project.title} 
+          className={styles.projectImage} 
+          style={{ border: 'none' }} 
+          loading="lazy"
+        />
     
       <section className={styles.projectLinks}>
         <Link className={styles.projectLink} href={project.githublink} target='_blank'>Github</Link>

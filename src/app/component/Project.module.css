@@ -15,7 +15,13 @@
 
 .projectImage{
   width: 100%;
-  aspect-ratio: 16/8;
+  aspect-ratio: 16/10;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.projectImage::-webkit-scrollbar {
+  display: none;
 }
 
 .projectLinks {
