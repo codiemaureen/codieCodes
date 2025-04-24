@@ -15,9 +15,7 @@
 
 .projectImage{
   width: 100%;
-  aspect-ratio: 16/10;
-  overflow-x: hidden;
-  scrollbar-width: none;
+  aspect-ratio: 16/16;
 }
 
 .projectImage::-webkit-scrollbar {
