@@ -13,22 +13,22 @@
     },
     {
       "id": 2,
-      "title": "Serenity Springs Spa",
-      "description": "",
-      "githublink": "https://github.com/codiemaureen/SerenitySpringsSpa",
-      "website":"https://codiemaureen.github.io/SerenitySpringsSpa/index.html",
-      "frontimage":"/serenity_springs.png",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""
-    },
-    {
-      "id": 3,
       "title": "Cedar Lake Carpentry",
       "description": "",
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
       "website":"https://cedarlakecarpentry.netlify.app/",
       "frontimage":"/cedar_lake_carpentry.png",
+      "languages": ["next", "next", "next", "next"],
+      "backimage": "",
+      "mobileimage": ""      
+    },
+    {
+      "id": 3,
+      "title": "Serenity Springs Spa",
+      "description": "",
+      "githublink": "https://github.com/codiemaureen/SerenitySpringsSpa",
+      "website":"https://codiemaureen.github.io/SerenitySpringsSpa/index.html",
+      "frontimage":"/serenity_springs.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
