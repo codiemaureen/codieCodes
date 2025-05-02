@@ -1,6 +1,8 @@
 import styles from './Footer.module.css';
 import Link from 'next/link';
 const Footer = () => {
+
+  const currentYear= new Date().getFullYear();
   return (
     <div className={styles.footer}>
       <h3 className={styles.footerTitle}>Website Built By Codie Groth</h3>
@@ -49,6 +51,7 @@ const Footer = () => {
          </li>
 
         </ul>
+        <p>&copy; { currentYear } Codie Groth. All rights reserved.</p>
        </div>
       </section>
     </div>
