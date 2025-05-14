@@ -2,7 +2,7 @@
   display: flex;
   margin: 0;
   min-width: 100vw;
-  height: 70vh;
+  min-height: 70vh;
   justify-content: space-between;
 }
 
@@ -18,6 +18,7 @@
 
 .description {
   width: 100%;
+  font-size: 2.5vh;
   text-align: center;
 }
 
