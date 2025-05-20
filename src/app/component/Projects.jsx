@@ -12,7 +12,7 @@ const ProjectList = () => {
       .then((data) => setProjects(data.projects))
       .catch((error) => console.error("Error fetching projects:", error));
   }, []);
-  projects = projects.slice(0, 4);
+  // projects = projects.slice(0, 4);
   return (
     <div id="projects" className={styles.projects}>
       <h2 className={styles.projectsTitle} >{'My Projects'}</h2>
