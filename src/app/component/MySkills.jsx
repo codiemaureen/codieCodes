@@ -1,29 +1,14 @@
 import styles from './MySkills.module.css';
 
 const MySkills = () => {
+  const skills = ['NEXT.JS', 'REACT', 'ANGULAR', 'NODE', 'MONGODB', 'AZURE', 'DOCKER', 'TYPESCRIPT', 'JAVASCRIPT', 'CSS/SASS', 'WEB ACCESSIBILITY']
   return (
     <div className={styles.skillsContainer}>
-    <h4 className={styles.listTitleMobile}>My Languages</h4>
+      <h4 className={styles.listTitleMobile}>My Languages</h4>
       <ol className={styles.skillList}>
-            <h4 className={styles.listTitleWeb}>My Languages</h4>
-        <li className={styles.skillItems}>
-          NEXT.JS
-        </li>
-        <li className={styles.skillItems}>
-          REACT
-        </li>
-        <li className={styles.skillItems}>
-          ANGULAR
-        </li>
-        <li className={styles.skillItems}>
-          NODE
-        </li>
-        <li className={styles.skillItems}>
-          TYPESCRIPT
-        </li>
-        <li className={styles.skillItems}>
-          JAVASCRIPT
-        </li>
+      {skills.map((skill,i) => (
+          <li key={i} className={styles.skillItems}>{skill}</li>
+        ))}
       </ol>
     </div>
   )
