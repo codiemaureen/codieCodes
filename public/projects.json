@@ -2,6 +2,16 @@
   "projects": [
     {
       "id": 0,
+      "title": "Next Ecommerce",
+      "description": "",
+      "githublink": "https://github.com/codiemaureen/ECommerce",
+      "website":"https://shaggyrolls.vercel.app",
+      "frontimage":"/react_task_tracker.png",
+      "backimage": "",
+      "mobileimage": "" 
+    },
+    {
+      "id": 1,
       "title": "Realty Drift",
       "description": ".",
       "githublink": "https://github.com/codiemaureen/PropertyPulse",
@@ -12,7 +22,7 @@
       "mobileimage": ""
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Ideal Mobile Detailing",
       "description": ".",
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
@@ -20,10 +30,10 @@
       "frontimage":"/ideal_mobile_detailing.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
-      "mobileimage": ""
+      "mobileimage": ""   
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Cedar Lake Carpentry",
       "description": "",
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
@@ -31,10 +41,10 @@
       "frontimage":"/cedar_lake_carpentry.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
-      "mobileimage": ""      
+      "mobileimage": "" 
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Serenity Springs Spa",
       "description": "",
       "githublink": "https://github.com/codiemaureen/SerenitySpringsSpa",
@@ -45,23 +55,13 @@
       "mobileimage": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Nasa's Photo of the Day",
       "description": "",
       "githublink": "https://github.com/codiemaureen/Nasa_API",
       "website":"https://codiemaureen.github.io/Nasa_API/",
       "frontimage":"/nasa_photo.png",
       "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""
-    },
-    {
-      "id": 5,
-      "title": "React To Do List",
-      "description": "",
-      "githublink": "https://github.com/codiemaureen/ReactToDoList",
-      "website":"https://codiemaureen.github.io/ReactToDoList/index.html",
-      "frontimage":"/react_task_tracker.png",
       "backimage": "",
       "mobileimage": ""
     }
