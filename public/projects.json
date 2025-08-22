@@ -2,25 +2,6 @@
   "projects": [
     {
       "id": 0,
-      "title": "Next Ecommerce",
-      "description": "",
-      "githublink": "https://github.com/codiemaureen/ECommerce",
-      "website":"https://shaggyrolls.vercel.app",
-      "backimage": "",
-      "mobileimage": "" 
-    },
-    {
-      "id": 1,
-      "title": "Realty Drift",
-      "description": ".",
-      "githublink": "https://github.com/codiemaureen/PropertyPulse",
-      "website":"https://realtydrift.netlify.app/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""
-    },
-    {
-      "id": 2,
       "title": "Ideal Mobile Detailing",
       "description": ".",
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
@@ -28,6 +9,25 @@
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""   
+    },
+    {
+      "id": 1,
+      "title": "Next Ecommerce",
+      "description": "",
+      "githublink": "https://github.com/codiemaureen/ECommerce",
+      "website":"https://shaggyrolls.vercel.app",
+      "backimage": "",
+      "mobileimage": ""  
+    },
+    {
+      "id": 2,
+      "title": "Realty Drift",
+      "description": ".",
+      "githublink": "https://github.com/codiemaureen/PropertyPulse",
+      "website":"https://realtydrift.netlify.app/",
+      "languages": ["next", "next", "next", "next"],
+      "backimage": "",
+      "mobileimage": ""
     },
     {
       "id": 3,
