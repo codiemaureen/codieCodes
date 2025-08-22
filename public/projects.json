@@ -6,7 +6,6 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/ECommerce",
       "website":"https://shaggyrolls.vercel.app",
-      "frontimage":"/react_task_tracker.png",
       "backimage": "",
       "mobileimage": "" 
     },
@@ -15,8 +14,7 @@
       "title": "Realty Drift",
       "description": ".",
       "githublink": "https://github.com/codiemaureen/PropertyPulse",
-      "website":"https://property-pulse-8krm.vercel.app/",
-      "frontimage":"/ideal_mobile_detailing.png",
+      "website":"https://realtydrift.netlify.app/",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
@@ -26,8 +24,7 @@
       "title": "Ideal Mobile Detailing",
       "description": ".",
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
-      "website":"ideal-mobile-v2.vercel.app",
-      "frontimage":"/ideal_mobile_detailing.png",
+      "website":"https://ideal-mobile-v2.vercel.app/",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""   
@@ -38,7 +35,6 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
       "website":"https://cedarlakecarpentry.netlify.app/",
-      "frontimage":"/cedar_lake_carpentry.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": "" 
@@ -49,7 +45,6 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/SerenitySpringsSpa",
       "website":"https://codiemaureen.github.io/SerenitySpringsSpa/index.html",
-      "frontimage":"/serenity_springs.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
@@ -60,7 +55,6 @@
       "description": "",
       "githublink": "https://github.com/codiemaureen/Nasa_API",
       "website":"https://codiemaureen.github.io/Nasa_API/",
-      "frontimage":"/nasa_photo.png",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""
