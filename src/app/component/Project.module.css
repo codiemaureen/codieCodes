@@ -1,3 +1,24 @@
+.iframeWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/16;
+  /* adjust as needed */
+  overflow: hidden;
+}
+
+.projectImage {
+  width: 100%;
+  aspect-ratio: 16/16;
+  border: none;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  cursor: pointer;
+}
 .projectCard{
   margin: 0;
   padding: 0;
@@ -13,10 +34,10 @@
   white-space: nowrap;
 }
 
-.projectImage{
+/* .projectImage{
   width: 100%;
   aspect-ratio: 16/16;
-}
+} */
 
 .projectImage::-webkit-scrollbar {
   display: none;
