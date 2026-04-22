@@ -34,7 +34,7 @@
       "title": "Cedar Lake Carpentry",
       "description": "",
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
-      "website":"https://cedarlakecarpentry.netlify.app/",
+      "website":"https://cedarlakecarpentry.vercel.app/",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": "" 
