@@ -13,12 +13,11 @@
       "id": 1,
       "title": "Rentualor",
       "description": ".",
-      "githublink": "rentulator.vercel.app",
+      "githublink": "https://github.com/codiemaureen/rentulator",
       "website":"https://rentulator.vercel.app/",
       "languages": ["next", "next", "next", "next"],
       "backimage": "",
       "mobileimage": ""   
-    }, {
     },{
       "id": 2,
       "title": "Realty Drift",
