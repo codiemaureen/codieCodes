@@ -44,14 +44,6 @@ const MyDetails = () => {
             className={`${styles.modal} ${styles.detailLink}`}
           />
         </li>
-        <li className={`${styles.detailItems} ${styles.detailLink}`}>
-          <PopupButton
-            url="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" 
-            rootElement={rootElement}
-            text="Visit My Github City"
-            className={`${styles.modal} ${styles.detailLink}`}
-          />
-        </li>
       </ol>
     </div>
   )

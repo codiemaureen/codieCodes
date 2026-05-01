@@ -37,15 +37,7 @@ const ContactMe = () => {
             <li className={styles.contactItem}>
               <Link href="https://www.linkedin.com/in/codiemaureen/" target='_blank' className={styles.contactLink}>LinkedIn
               </Link>
-            </li>
-            <li >
-              <PopupButton
-                url="https://honzaap.github.io/GithubCity/?name=codiemaureen&year=2025" 
-                rootElement={rootElement}
-                text="Visit My Github City"
-                className={styles.button}
-              />
-            </li>            
+            </li>         
         </ol>
       </div>
     </div>
