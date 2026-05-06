@@ -12,7 +12,7 @@ export default function Hero() {
         className={styles.heroImg}
       />
       <div className={styles.overlay} />
-
+      
       <div className={styles.content}>
         <p className={styles.name}>Codie Groth</p>
         <p className={styles.role}>Full Stack Developer</p>
