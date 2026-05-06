@@ -45,17 +45,6 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://x.com/CodieMaureen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.link}
-              >
-                Twitter
-              </a>
-            </li>
-
-            <li>
-              <a
                 href="mailto:codiegroth@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out"
                 className={styles.link}
               >
