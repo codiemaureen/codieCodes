@@ -1,74 +1,57 @@
 .detailsContainer {
- display: flex;
- margin: 0;
- min-width: 20%;
+  padding: 1.4rem;
+  border-radius: 1.5rem;
+  background: #142018;
+  color: #f8f3e8;
+  border: 1px solid rgba(201, 164, 92, 0.22);
+  box-shadow: 0 20px 50px rgba(15, 23, 18, 0.18);
 }
 
-.detailsList{
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- list-style-type: none;
- text-transform: uppercase;
- white-space: nowrap;
- text-align: start;
- height: 100%;
- width: 100%;
- padding: 0;
- margin: 0;
-}
-.modal{
-  all:unset;
-  width: 100%;
-  cursor: pointer;
-}
-
-.detailItems {
-  background-color: rgb(2, 39, 2);
-  color: white;
-  text-decoration: none;
+.cardLabel {
+  margin: 0 0 1rem;
+  color: #d7b66f;
+  font-size: 0.75rem;
   font-weight: 800;
-  font-size: 1rem;
-  font-stretch: expanded;
-  min-width: 90%;
-  padding: 5% 15% 5% 2%;
-  border: none;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
-.detailLink:hover {
-    font-size: 1.2rem;
-    opacity: 0.8;
-  }
-
-@keyframes scale-up {
-  from {
-    scale: 100% 0;
-  }
-
-  to {
-    scale: 200% 0;
-  }
+.detailsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
 }
-@media screen and (max-width: 1355px) {
-.detailsContainer {
-    padding: 0;
-    margin: 0;
-    order: 1;
-    width: 100%;
-  }
-  .detailItems {
-    padding: 5% 0;
-    padding-left: 1%;
-    margin: 0;
-    font-size: 100%;
-    white-space: wrap;
-  }
 
-  .detailLink .detailItems{
-    background-color: transparent;
-    padding: 5% 0;
-    padding-left: 1%;
-    margin: 0;
-    font-size: 100%;
-  }
+.detailsList li,
+.detailsList a,
+.modal {
+  color: rgba(248, 243, 232, 0.88);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.detailsList a,
+.modal {
+  display: inline-flex;
+  width: fit-content;
+  border-bottom: 1px solid rgba(215, 182, 111, 0.45);
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.detailsList a:hover,
+.modal:hover {
+  color: #d7b66f;
+  border-color: #d7b66f;
+}
+
+.modal {
+  padding: 0;
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
+  font: inherit;
 }

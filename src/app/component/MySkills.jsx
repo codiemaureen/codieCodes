@@ -1,17 +1,33 @@
-import styles from './MySkills.module.css';
+import styles from "./MySkills.module.css";
+
+const skills = [
+  "Next.js",
+  "React",
+  "Angular",
+  "Node.js",
+  "MongoDB",
+  "Azure",
+  "Docker",
+  "TypeScript",
+  "JavaScript",
+  "CSS / Sass",
+  "Web Accessibility",
+];
 
 const MySkills = () => {
-  const skills = ['NEXT.JS', 'REACT', 'ANGULAR', 'NODE', 'MONGODB', 'AZURE', 'DOCKER', 'TYPESCRIPT', 'JAVASCRIPT', 'CSS/SASS', 'WEB ACCESSIBILITY']
   return (
     <div className={styles.skillsContainer}>
-      <h4 className={styles.listTitleMobile}>Tech Stack</h4>
-      <ol className={styles.skillList}>
-      {skills.map((skill,i) => (
-          <li key={i} className={styles.skillItems}>{skill}</li>
-        ))}
-      </ol>
-    </div>
-  )
-}
+      <p className={styles.cardLabel}>Tech Stack</p>
 
-export default MySkills
+      <ul className={styles.skillList}>
+        {skills.map((skill) => (
+          <li key={skill} className={styles.skillItem}>
+            {skill}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default MySkills;
