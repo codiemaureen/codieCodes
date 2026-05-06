@@ -1,5 +1,6 @@
 import React from 'react'
-import Resume from './resume'
+import Resume from './Resume'
+
 
 function page() {
   return (
