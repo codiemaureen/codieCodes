@@ -14,8 +14,8 @@ const Navbar = () => {
       <nav className={styles.navLinks}>
         <Link href="#about">About</Link>
         <Link href="#projects">Projects</Link>
-        <Link href="#skills">Skills</Link>
-        <Link href="#experience">Experience</Link>
+        <Link href="#about">Skills</Link>
+        <Link href="#projects">Experience</Link>
         <Link href="#contact">Contact</Link>
       </nav>
 
