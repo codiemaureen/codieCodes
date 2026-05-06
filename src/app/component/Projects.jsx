@@ -1,30 +1,47 @@
 "use client";
+
 import { useEffect, useState } from "react";
-import Project from "./Project"; 
-import styles from "./Projects.module.css"
+import Project from "./Project";
+import styles from "./Projects.module.css";
 
 const ProjectList = () => {
-  let [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/projects.json")
-      .then((response) => response.json())
-      .then((data) => setProjects(data.projects))
-      .catch((error) => console.error("Error fetching projects:", error));
+    const getProjects = async () => {
+      try {
+        const response = await fetch("/projects.json");
+
+        if (!response.ok) {
+          throw new Error("Failed to fetch projects");
+        }
+
+        const data = await response.json();
+        setProjects(data.projects || []);
+      } catch (error) {
+        console.error("Error fetching projects:", error);
+      }
+    };
+
+    getProjects();
   }, []);
-  // projects = projects.slice(0, 4);
+
   return (
-    <div id="projects" className={styles.projects}>
-      <h2 className={styles.projectsTitle} >{'My Projects'}</h2>
+    <section id="projects" className={styles.projects}>
+      <div className={styles.projectsHeader}>
+        <p className={styles.eyebrow}>Selected Work</p>
+        <h2 className={styles.projectsTitle}>Featured Projects</h2>
+        <p className={styles.projectsSubtitle}>
+          A collection of client websites and product-focused applications built with modern web technologies.
+        </p>
+      </div>
+
       <div className={styles.projectsContainer}>
-        
         {projects.map((project) => (
-          <div key={project.id} className={styles.projectsItems}>
-            <Project project={project} />
-          </div>
+          <Project key={project.id} project={project} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
