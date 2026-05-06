@@ -1,64 +1,133 @@
+.contactContainer,
+.contactContainer * {
+  box-sizing: border-box;
+}
+
 .contactContainer {
- text-align: center;
- color: rgb(2, 39, 2);
+  padding: clamp(5rem, 9vw, 8rem) 1.25rem;
+  color: #092b12;
+  background:
+    radial-gradient(circle at top left, rgba(198, 173, 115, 0.14), transparent 34%),
+    linear-gradient(180deg, #fbfaf5 0%, #f4f1e7 100%);
+}
+.contactIntro {
+  max-width: 850px;
+  margin: 0 auto clamp(3rem, 6vw, 4.5rem);
+  text-align: center;
 }
 
-.contactHeader{
-  padding-top: 5%;
-}
-.contactFlex{
- display: flex;
- justify-content: space-evenly;
- align-items: center;
+.eyebrow {
+  margin: 0 0 1rem;
+  color: rgb(2, 39, 2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
 }
 
-.contactList{
- text-align: start;
- list-style-type: none;
+.contactHeader {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+}
+
+.contactText {
+  margin: 1.35rem auto 0;
+  max-width: 680px;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  line-height: 1.7;
+  color: rgba(2, 39, 2, 0.72);
+}
+
+.contactFlex {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 720px) minmax(320px, 360px);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  justify-content: center;
+  align-items: start;
+}
+
+.contactCard {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 252, 243, 0.88);
+  border: 1px solid rgba(198, 173, 115, 0.35);
+  box-shadow: 0 28px 70px rgba(2, 39, 2, 0.1);
+}
+
+.cardTitle {
+  margin: 0 0 1rem;
+  color: #092b12;
+  font-size: 1.25rem;
+}
+
+.contactList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
 }
 
 .contactItem {
- font-size: 2em;
- /* padding: 1rem; */
- padding-left: 0;
- text-decoration: none;
+  font-size: 1rem;
 }
 
-
-.contactLink{
- color: rgb(2, 39, 2);
- text-transform: uppercase;
- text-decoration: none;
+.contactLink {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+  border-radius: 0.95rem;
+  color: #092b12;
+  text-decoration: none;
+  background: linear-gradient(180deg, #fffdf7, #f5f0e4);
+  border: 1px solid rgba(198, 173, 115, 0.28);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease,
+    border-color 180ms ease;
 }
 
-.button {
- padding: 1rem;
- color:white;
- font-size: 1rem;
- background-color: rgb(2, 39, 2);
- cursor: pointer;
+.contactLink span {
+  color: #9a7c35;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: transform 180ms ease;
 }
 
+.contactLink:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(180deg, #fffaf0, #efe5cf);
+  border-color: rgba(198, 173, 115, 0.7);
+  box-shadow: 0 14px 30px rgba(2, 39, 2, 0.14);
+}
 
-@media screen and (max-width: 1355px) {
+.contactLink:hover span {
+  transform: translateX(4px);
+}
+
+.contactLink:hover span {
+  transform: translateX(4px);
+}
+
+@media screen and (max-width: 900px) {
   .contactContainer {
-    height: 100%;
-    padding-top: 20vh;
+    padding: 4rem 1rem;
   }
+
   .contactFlex {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
+    max-width: 680px;
   }
-  .contactHeader {
-    margin-bottom: 10vh;
-  }
-  .contactList{
-    text-align: center;
-  }
-  .contactItem {
-    font-size: 1rem;
-  }
-  .button {
-    font-size: .7rem;
+
+  .contactCard {
+    padding: 1.25rem;
   }
 }
