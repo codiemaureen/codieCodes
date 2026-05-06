@@ -20,7 +20,7 @@
 
 .projectsTitle {
   margin: 0;
-  color: #ffffff;
+  color: rgb(252, 237, 207);
   font-size: clamp(2rem, 5vw, 3.5rem);
   line-height: 1.05;
 }

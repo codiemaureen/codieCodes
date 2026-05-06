@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   padding: 4rem 1.5rem 2rem;
-  color: white;
+  color: #e7dac1;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)),
     url("../../../public/pexels-sarah-ann-3164915-7031427.jpg");
@@ -29,7 +29,7 @@
 
 
 .link {
-  color: white;
+  color: #e7dac1;
   text-decoration: none;
   transition: color 0.2s ease, opacity 0.2s ease;
 }
