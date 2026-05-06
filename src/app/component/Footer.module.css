@@ -1,6 +1,5 @@
 .footer {
   width: 100%;
-  /* margin-top: 2rem; */
   padding: 4rem 1.5rem 2rem;
   color: white;
   background-image:
@@ -27,27 +26,8 @@
   text-align: center;
 }
 
-.imageCredContainer {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
-}
 
-.imageCredit {
-  margin-bottom: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: white;
-  font-size: 0.9rem;
-}
 
-.imageCredList {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.imageCred,
 .link {
   color: white;
   text-decoration: none;

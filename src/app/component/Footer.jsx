@@ -11,26 +11,8 @@ const Footer = () => {
       </h3>
 
       <section className={styles.credContainer}>
-        
-        {/* Image Credits */}
-        <div className={styles.imageCredContainer}>
-          <h4 className={styles.imageCredit}>Image Credits:</h4>
-          <ul className={styles.imageCredList}>
-            <li>
-              <a
-                href="https://www.pexels.com/photo/green-and-white-leaves-of-the-plant-7031427/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.imageCred}
-              >
-                Footer Photo by Sarah Ann
-              </a>
-            </li>
-          </ul>
-        </div>
 
-        {/* Navigation / Social */}
-        <div className={styles.iconContainer}>
+         <div className={styles.iconContainer}>
           <ul className={styles.icons}>
             
             <li>
@@ -82,7 +64,6 @@ const Footer = () => {
             </li>
 
           </ul>
-
           <p className={styles.copy}>
             &copy; {currentYear} Codie Groth. All rights reserved.
           </p>
