@@ -23,7 +23,7 @@ const Project = ({ project }) => {
 
 
         <ul className={styles.projectHighlights}>
-          {project.highlights?.slice(0, 3).map((highlight, index) => (
+          {project.highlights?.slice(0, 4).map((highlight, index) => (
             <li key={index}>{highlight}</li>
           ))}
         </ul>

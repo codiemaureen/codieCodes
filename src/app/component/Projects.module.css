@@ -1,5 +1,7 @@
 .projects {
-  background: #082404;
+  background: linear-gradient(to bottom,
+      #081308,
+      #0b170b);
   padding: clamp(4rem, 8vw, 7rem) 1rem;
 }
 
