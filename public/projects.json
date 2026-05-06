@@ -1,58 +1,28 @@
 {
   "projects": [
     {
-      "id": 0,     
+      "id": 0,
       "title": "Cedar Lake Carpentry",
-      "description": "",
+      "description": "Designed and developed a high-end marketing website for a luxury carpentry business to strengthen brand credibility and drive inbound client inquiries. Built a fully responsive Next.js application featuring a custom project gallery, service-focused content architecture, and a streamlined contact/quote form. Optimized for performance and SEO, resulting in a professional digital presence aligned with premium home builders.",
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
-      "website":"https://www.cedarlakecarpentry.com/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": "" 
-    },{
+      "website": "https://www.cedarlakecarpentry.com/",
+      "languages": ["Next", "JavaScript", "Tailwind"]
+    },
+    {
       "id": 1,
-      "title": "Rentualor",
-      "description": ".",
+      "title": "Rentulator",
+      "description": "Built a full-stack Airbnb investment analysis tool that calculates cash flow, ROI, and key financial metrics to help users evaluate rental property opportunities. Implemented a multi-step form experience, real-time financial calculations, and a responsive dashboard UI using Next.js and TypeScript. Designed with a focus on usability and product thinking, including mobile optimization and PWA support for installable app functionality.",
       "githublink": "https://github.com/codiemaureen/rentulator",
-      "website":"https://rentulator.vercel.app/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""   
-    },{
+      "website": "https://rentulator.vercel.app/",
+      "languages": ["Next", "TypeScript", "Next PWA"]
+    },
+    {
       "id": 2,
-      "title": "Realty Drift",
-      "description": ".",
-      "githublink": "https://github.com/codiemaureen/PropertyPulse",
-      "website":"https://realtydrift.netlify.app/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""   
-    }, {
-      "id": 3,
-      "title": "Balkan Furniture",
-      "description": ".",
-      "githublink": "https://github.com/codiemaureen/Balkan-furniture",
-      "website":"https://balkanfurniture.vercel.app/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""
-    }, {
-      "id": 4,
-      "title": "Next Ecommerce",
-      "description": "",
-      "githublink": "https://github.com/codiemaureen/ECommerce",
-      "website":"https://wardrobeco.vercel.app/",
-      "backimage": "",
-      "mobileimage": ""  
-    }, {
-      "id": 5,
       "title": "Ideal Mobile Detailing",
-      "description": ".",
+      "description": "Developed a modern service-based website for a mobile detailing business to improve customer acquisition and showcase services. Built with Next.js and Tailwind, featuring a clean UX, service breakdowns, and a visual gallery to highlight past work. Focused on conversion-driven design and performance, with a scalable foundation for future features such as online booking and customer accounts.",
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
-      "website":"https://ideal-mobile-v2.vercel.app/",
-      "languages": ["next", "next", "next", "next"],
-      "backimage": "",
-      "mobileimage": ""
+      "website": "https://ideal-mobile-v2.vercel.app/",
+      "languages": ["Next", "JavaScript", "Tailwind"]
     }
   ]
 }
