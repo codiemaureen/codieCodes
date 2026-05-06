@@ -62,8 +62,10 @@
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
   border-radius: 999px;
-  background: rgba(198, 173, 115, 0.12);
-  color: #c6ad73;
+  background: rgba(198,173,115,0.1);
+  border: 1px solid rgba(198,173,115,0.3);
+  color: #e6d3a3;
+  font-weight: 500;
 }
 
 
@@ -109,44 +111,61 @@
   transition: transform 0.4s ease;
 }
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, .98);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  padding: 1rem;
-}
 
-.overlay ul {
+.projectHighlights {
   list-style: none;
   padding: 0;
-  margin: 0;
-}
-
-.overlay li::before {
-  content: "•";
-
-}
-.overlay li {
-  color: #f8fafc;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin-bottom: 0.45rem;
+  margin: 0.75rem 0 1.5rem;
   display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
+.projectHighlights li {
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: #c6ad73;
+}
 
-.projectCard:hover .overlay {
-  opacity: 1;
+.projectHighlights li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #c6ad73; 
+  font-weight: bold;
+}
+
+.projectCard {
+  transition: all 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-6px);
+}
+
+.projectImage {
+  transition: transform 0.4s ease;
 }
 
 .projectCard:hover .projectImage {
   transform: scale(1.05);
+}
+
+.featuredCard {
+  transform: scale(1.04);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  z-index: 2;
+}
+
+.featuredBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #c6ad73;
+  color: #111;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 999px;
 }

@@ -12,7 +12,8 @@
       ],
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
       "website": "https://www.cedarlakecarpentry.com/",
-      "languages": ["Next", "JavaScript", "Tailwind"]
+      "languages": ["Next", "JavaScript", "Tailwind"],
+      "featured": true
     },
     {
       "id": 1,
@@ -26,7 +27,8 @@
       ],
       "githublink": "https://github.com/codiemaureen/rentulator",
       "website": "https://rentulator.vercel.app/",
-      "languages": ["Next", "TypeScript", "Next PWA"]
+      "languages": ["Next", "TypeScript", "Next PWA"],
+      "featured": false
     },
     {
       "id": 2,
@@ -40,7 +42,8 @@
       ],
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
       "website": "https://ideal-mobile-v2.vercel.app/",
-      "languages": ["Next", "JavaScript", "Tailwind"]
+      "languages": ["Next", "JavaScript", "Tailwind"],
+      "featured": false
     }
   ]
 }

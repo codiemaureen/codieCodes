@@ -3,27 +3,30 @@ import Link from "next/link";
 
 const Project = ({ project }) => {
   return (
-    <article className={styles.projectCard}>
+    <article   className={`${styles.projectCard} ${
+    project.featured ? styles.featuredCard : ""
+  }`}>
+
       <div className={styles.imageWrapper}>
         <img
           src={`/projects/${project.id}.png`}
           alt={`${project.title} website preview`}
           className={styles.projectImage}
         />
-
-        <div className={styles.overlay}>
-          <ul>
-            {project.highlights?.map((highlight, index) => (
-              <li key={index}>{highlight}</li>
-            ))}
-          </ul>
-        </div>
       </div>
-
+      {project.featured && (
+        <span className={styles.featuredBadge}>Featured</span>
+      )}
+      
       <div className={styles.content}>
         <h3 className={styles.projectTitle}>{project.title}</h3>
 
-        <p className={styles.projectDescription}>{project.description}</p>
+
+        <ul className={styles.projectHighlights}>
+          {project.highlights?.slice(0, 3).map((highlight, index) => (
+            <li key={index}>{highlight}</li>
+          ))}
+        </ul>
 
         <div className={styles.techStack}>
           {project.languages.map((language, index) => (
