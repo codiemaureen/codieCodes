@@ -4,6 +4,12 @@
       "id": 0,
       "title": "Cedar Lake Carpentry",
       "description": "Designed and developed a high-end marketing website for a luxury carpentry business to strengthen brand credibility and drive inbound client inquiries. Built a fully responsive Next.js application featuring a custom project gallery, service-focused content architecture, and a streamlined contact/quote form. Optimized for performance and SEO, resulting in a professional digital presence aligned with premium home builders.",
+      "highlights": [
+        "Luxury UI aligned with premium builder clientele",
+        "Custom gallery + service-based content architecture",
+        "Lead-focused contact form integration",
+        "Performance and SEO optimized build"
+      ],
       "githublink": "https://github.com/codiemaureen/CedarLakeCarpentry_V2",
       "website": "https://www.cedarlakecarpentry.com/",
       "languages": ["Next", "JavaScript", "Tailwind"]
@@ -12,6 +18,12 @@
       "id": 1,
       "title": "Rentulator",
       "description": "Built a full-stack Airbnb investment analysis tool that calculates cash flow, ROI, and key financial metrics to help users evaluate rental property opportunities. Implemented a multi-step form experience, real-time financial calculations, and a responsive dashboard UI using Next.js and TypeScript. Designed with a focus on usability and product thinking, including mobile optimization and PWA support for installable app functionality.",
+      "highlights": [
+        "Real-time ROI and cash flow calculations",
+        "Multi-step financial input experience",
+        "Responsive dashboard-style UI",
+        "PWA support for installable app experience"
+      ],
       "githublink": "https://github.com/codiemaureen/rentulator",
       "website": "https://rentulator.vercel.app/",
       "languages": ["Next", "TypeScript", "Next PWA"]
@@ -20,6 +32,12 @@
       "id": 2,
       "title": "Ideal Mobile Detailing",
       "description": "Developed a modern service-based website for a mobile detailing business to improve customer acquisition and showcase services. Built with Next.js and Tailwind, featuring a clean UX, service breakdowns, and a visual gallery to highlight past work. Focused on conversion-driven design and performance, with a scalable foundation for future features such as online booking and customer accounts.",
+      "highlights": [
+        "Conversion-focused service layout and UX",
+        "Responsive gallery to showcase completed work",
+        "Clean, modern UI built for customer trust",
+        "Scalable foundation for booking and user features"
+      ],
       "githublink": "https://github.com/codiemaureen/IdealMobileDetailing",
       "website": "https://ideal-mobile-v2.vercel.app/",
       "languages": ["Next", "JavaScript", "Tailwind"]

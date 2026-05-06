@@ -1,47 +1,57 @@
-import styles from './Project.module.css';
-import Link from 'next/link';
+import styles from "./Project.module.css";
+import Link from "next/link";
 
 const Project = ({ project }) => {
   return (
-    <div className={styles.projectCard}>
-      
-      {/* IMAGE */}
+    <article className={styles.projectCard}>
       <div className={styles.imageWrapper}>
         <img
-          src={`/projects/${project.id}.png`} // replace with your images
-          alt={project.title}
+          src={`/projects/${project.id}.png`}
+          alt={`${project.title} website preview`}
           className={styles.projectImage}
         />
+
+        <div className={styles.overlay}>
+          <ul>
+            {project.highlights?.map((highlight, index) => (
+              <li key={index}>{highlight}</li>
+            ))}
+          </ul>
+        </div>
       </div>
 
-      {/* CONTENT */}
       <div className={styles.content}>
         <h3 className={styles.projectTitle}>{project.title}</h3>
 
-        <p className={styles.projectDescription}>
-          {project.description}
-        </p>
+        <p className={styles.projectDescription}>{project.description}</p>
 
-        {/* TECH STACK */}
         <div className={styles.techStack}>
-          {project.languages.map((tech, index) => (
+          {project.languages.map((language, index) => (
             <span key={index} className={styles.techItem}>
-              {tech}
+              {language}
             </span>
           ))}
         </div>
 
-        {/* LINKS */}
         <div className={styles.projectLinks}>
-          <Link href={project.website} target="_blank" className={styles.primaryBtn}>
-            Live Site →
+          <Link
+            href={project.website}
+            target="_blank"
+            className={styles.primaryBtn}
+          >
+            Live Site
           </Link>
-          <Link href={project.githublink} target="_blank" className={styles.secondaryBtn}>
+
+          <Link
+            href={project.githublink}
+            target="_blank"
+            className={styles.secondaryBtn}
+          >
             GitHub
           </Link>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
