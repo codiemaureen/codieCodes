@@ -1,63 +1,105 @@
-.footer{
- min-width: 100vw;
- background-image: url('../../../public/pexels-sarah-ann-3164915-7031427.jpg');
- background-position: center;
- display: flex;
- flex-direction: column;
- margin: 0;
- margin-top: 20px;
- padding-top: 2em;
- font-size: 2em;
- color: white;
+.footer {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 4rem 1.5rem 2rem;
+  color: white;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)),
+    url("../../../public/pexels-sarah-ann-3164915-7031427.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.footerTitle{
- text-align: center;
- font-size: 3rem;
- border-bottom: 10px solid rgba(255, 255, 255, 0.629);
- padding-bottom: 10vh;
-}
-.credContainer{
- text-align: center;
-
-}
-
-.imageCredList{
- list-style-type: none;
- text-decoration: none;
- border-bottom: 10px solid rgba(255, 255, 255, 0.629);
- padding-bottom: 20vh;
+.footerTitle {
+  margin: 0 auto 2rem;
+  padding-bottom: 1.5rem;
+  max-width: 900px;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: 700;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 }
 
-.imageCredit{
- text-transform: uppercase;
- text-decoration: none;
- color: white;
-}
-.imageCred{
- text-decoration: none;
- color: white;
+.credContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.icons{
- display: flex;
- list-style-type: none;
+.imageCredContainer {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 }
 
-.icon{
- margin: auto;
- text-decoration: none;
- color: white;
+.imageCredit {
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: white;
+  font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1355px) {
-  .footer{
-    font-size: 100%;
+.imageCredList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.imageCred,
+.link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.imageCred:hover,
+.link:hover {
+  color: #c6ad73;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.copy {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 3rem 1rem 1.5rem;
   }
-  .footerTitle{
-    font-size: 100%;
+
+  .icons {
+    flex-direction: column;
+    gap: 0.85rem;
   }
-  .icon{
-    font-size: 50%;
+
+  .footerTitle {
+    margin-bottom: 1.5rem;
   }
 }
