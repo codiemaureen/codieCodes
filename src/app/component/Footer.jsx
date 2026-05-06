@@ -23,7 +23,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.imageCred}
               >
-                Header & Footer Photo by Sarah Ann
+                Footer Photo by Sarah Ann
               </a>
             </li>
           </ul>
