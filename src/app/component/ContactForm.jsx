@@ -33,7 +33,8 @@ const ContactForm = () => {
       <form 
       method="get" 
       className={styles.form} 
-      onSubmit={onSubmit}>
+      onSubmit={onSubmit}
+      id='contact'>
         <h2 className={styles.formHeading}>
           Let's Connect!
         </h2>
