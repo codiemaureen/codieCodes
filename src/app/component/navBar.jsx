@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import styles from "./navbar.module.css";
+import styles from "./navBar.module.css";
 import { Download } from "lucide-react";
 
 const Navbar = () => {
